@@ -1,0 +1,1299 @@
+{
+	"generatorSource": "svgps.app",
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M327.7 61.4C180.8 61.4 61.4 180.8 61.4 327.7L61.4 696.3C61.4 843.2 180.8 962.6 327.7 962.6L696.3 962.6C843.2 962.6 962.6 843.2 962.6 696.3L962.6 327.7C962.6 180.8 843.2 61.4 696.3 61.4L327.7 61.4zM757.8 225.3C780.3 225.3 798.7 243.7 798.7 266.2 798.7 288.8 780.3 307.2 757.8 307.2 735.2 307.2 716.8 288.8 716.8 266.2 716.8 243.7 735.2 225.3 757.8 225.3zM512 286.7C636.3 286.7 737.3 387.7 737.3 512 737.3 636.3 636.3 737.3 512 737.3 387.7 737.3 286.7 636.3 286.7 512 286.7 387.7 387.7 286.7 512 286.7zM512 327.7C410.4 327.7 327.7 410.4 327.7 512 327.7 613.6 410.4 696.3 512 696.3 613.6 696.3 696.3 613.6 696.3 512 696.3 410.4 613.6 327.7 512 327.7z"
+				],
+				"attrs": [{}],
+				"width": 1024
+			},
+			"properties": {
+				"name": "instagram"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M542.1 467.2L755.5 219.2H704.9L519.7 434.5 371.7 219.2H201.1L424.8 544.8 201.1 804.8H251.7L447.3 577.4 603.5 804.8H774.1L542.1 467.2H542.1ZM472.9 547.6L450.2 515.2 269.9 257.2H347.5L493.1 465.4 515.7 497.9 704.9 768.5H627.3L472.9 547.7V547.6Z"
+				],
+				"attrs": [{}],
+				"width": 975
+			},
+			"properties": {
+				"name": "twitter"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M747.8 786.3H227.5C159.2 786.3 103.9 731 103.9 662.7V361.3C103.9 293 159.2 237.7 227.5 237.7H747.8C816 237.7 871.3 293 871.3 361.3V662.7C871.3 731 816 786.3 747.8 786.3Z",
+					"M747.8 237.7H701.5C769.7 237.7 825 293.1 825 361.3V662.7C825 731 769.7 786.3 701.5 786.3H747.8C816 786.3 871.3 731 871.3 662.7V361.3C871.3 293.1 816 237.7 747.8 237.7Z",
+					"M395.8 404.5V619.5C395.8 633.8 411.4 642.6 423.7 635.2L601.7 527.7C613.5 520.6 613.5 503.4 601.7 496.2L423.7 388.8C411.4 381.4 395.8 390.2 395.8 404.5Z"
+				],
+				"attrs": [
+					{
+						"fill": "white"
+					},
+					{
+						"fill": "white"
+					},
+					{
+						"fill": "#F97968"
+					}
+				],
+				"width": 975
+			},
+			"properties": {
+				"name": "youtube"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M289.5 403H142.1V834.6H289.5V403Z",
+					"M264.7 201.6C250.7 193.1 234.2 188.5 217.3 188.5 206 188.5 194.9 190.5 184.5 194.5 174.1 198.4 164.6 204.2 156.7 211.4 148.7 218.7 142.4 227.3 138.2 236.7 133.9 246.2 131.7 256.3 131.8 266.5 131.9 281.9 137 296.8 146.5 309.5 155.9 322.2 169.3 332.1 184.9 337.9 200.5 343.7 217.7 345.2 234.3 342.1 250.8 339.1 266 331.7 277.9 320.8 289.8 309.9 297.9 296.1 301.2 281.1 304.4 266 302.7 250.5 296.2 236.3 289.7 222.2 278.8 210.1 264.7 201.6Z",
+					"M526.1 403H384.1L383.6 835.4H531V621.9C531 565.7 542.8 511.3 619.4 511.3 696.1 511.3 696.1 576 696.1 625.9V834.6H843.4V597.8C843.4 481.4 813.5 392.3 666.1 392.3 638 391.3 610.1 397.2 585.5 409.5 560.8 421.7 540.3 439.8 526.1 461.8V403Z"
+				],
+				"attrs": [{}, {}, {}],
+				"width": 975
+			},
+			"properties": {
+				"name": "linkedin"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M715.4 421.9H563.5V301.8C563.5 268.6 590.8 271.7 624.3 271.7H685V121.5H563.5C515.2 121.5 468.9 140.5 434.7 174.3 400.5 208.1 381.3 254 381.3 301.8V421.9H259.8V572.1H381.3V902.5H563.5V572.1H654.7L715.4 421.9Z"
+				],
+				"attrs": [
+					{
+						"fillRule": "evenodd",
+						"clipRule": "evenodd"
+					}
+				],
+				"width": 975
+			},
+			"properties": {
+				"name": "facebook"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M256 204.8C256 176.5 278.9 153.6 307.2 153.6H972.8C1001.1 153.6 1024 176.5 1024 204.8 1024 233.1 1001.1 256 972.8 256H307.2C278.9 256 256 233.1 256 204.8ZM972.8 460.8H51.2C22.9 460.8 0 483.7 0 512 0 540.3 22.9 563.2 51.2 563.2H972.8C1001.1 563.2 1024 540.3 1024 512 1024 483.7 1001.1 460.8 972.8 460.8ZM972.8 768H512C483.7 768 460.8 790.9 460.8 819.2 460.8 847.5 483.7 870.4 512 870.4H972.8C1001.1 870.4 1024 847.5 1024 819.2 1024 790.9 1001.1 768 972.8 768Z"
+				],
+				"attrs": [{}],
+				"width": 1024
+			},
+			"properties": { "name": "menu" }
+		},
+		{
+			"icon": {
+				"paths": ["M874.4 938.7H149.1", "M810.4 149.3L213.1 746.7", "M810.4 587.5V149.3H372.2"],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 76.80000000000001,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 76.80000000000001,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 76.80000000000001,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "send" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M376.8 407.5H377.2M593.9 419.8L389.1 624.6M602.1 636.9H602.5M110.6 452.6C101.4 461.8 94.1 472.7 89.2 484.6 84.2 496.6 81.6 509.5 81.6 522.4 81.6 535.4 84.2 548.3 89.2 560.2 94.1 572.2 101.4 583.1 110.6 592.3L421.5 903.2C430.6 912.3 441.5 919.6 453.5 924.6 465.5 929.6 478.3 932.1 491.3 932.1 504.3 932.1 517.1 929.6 529.1 924.6 541.1 919.6 552 912.3 561.1 903.2L872 592.3C881.2 583.1 888.5 572.2 893.5 560.2 898.4 548.3 901 535.4 901 522.4 901 509.5 898.4 496.6 893.5 484.6 888.5 472.7 881.2 461.8 872 452.6L561.1 141.7C552 132.5 541.1 125.3 529.1 120.3 517.1 115.3 504.3 112.8 491.3 112.8 478.3 112.8 465.5 115.3 453.5 120.3 441.5 125.3 430.6 132.5 421.5 141.7L110.6 452.6Z"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 81.92,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 983
+			},
+			"properties": { "name": "diamond-percent" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M348.2 624.6C375.3 624.6 401.4 613.9 420.6 594.6 439.8 575.4 450.6 549.4 450.6 522.2 450.6 465.7 430.1 440.3 409.6 399.4 365.7 311.6 400.4 233.3 491.5 153.6 512 256 573.4 354.3 655.4 419.8 737.3 485.4 778.2 563.2 778.2 645.1 778.2 682.8 770.8 720.1 756.4 754.8 742 789.6 720.9 821.2 694.3 847.9 667.6 874.5 636 895.6 601.2 910 566.5 924.4 529.2 931.8 491.5 931.8 453.9 931.8 416.6 924.4 381.8 910 347 895.6 315.4 874.5 288.8 847.9 262.2 821.2 241 789.6 226.6 754.8 212.2 720.1 204.8 682.8 204.8 645.1 204.8 597.9 222.5 551.2 245.8 522.2 245.8 549.4 256.5 575.4 275.8 594.6 295 613.9 321 624.6 348.2 624.6Z"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 81.92,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 983
+			},
+			"properties": { "name": "flame" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M614.4 604.2C622.6 563.2 643.1 534.5 675.8 501.8 716.8 464.9 737.3 411.6 737.3 358.4 737.3 293.2 711.4 230.7 665.3 184.6 619.2 138.5 556.7 112.6 491.5 112.6 426.3 112.6 363.8 138.5 317.7 184.6 271.7 230.7 245.8 293.2 245.8 358.4 245.8 399.4 254 448.5 307.2 501.8 335.9 530.4 360.4 563.2 368.6 604.2M368.6 768H614.4M409.6 931.8H573.4"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 81.92,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 983
+			},
+			"properties": { "name": "lightbulb" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M122.9 317.4V235.5C122.9 213.8 131.5 193 146.9 177.6 162.2 162.2 183.1 153.6 204.8 153.6H286.7M696.3 153.6H778.2C800 153.6 820.8 162.2 836.2 177.6 851.5 193 860.2 213.8 860.2 235.5V317.4M860.2 727V809C860.2 830.7 851.5 851.5 836.2 866.9 820.8 882.2 800 890.9 778.2 890.9H696.3M286.7 890.9H204.8C183.1 890.9 162.2 882.2 146.9 866.9 131.5 851.5 122.9 830.7 122.9 809V727M286.7 358.4H614.4M286.7 522.2H696.3M286.7 686.1H532.5"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 81.92,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 983
+			},
+			"properties": { "name": "scan-text" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 0H1024V1024H0V0Z",
+					"M672.2 200C672.2 288.4 600.6 360 512.2 360 423.9 360 352.2 288.4 352.2 200 352.2 111.6 423.9 40 512.2 40 600.6 40 672.2 111.6 672.2 200Z",
+					"M586.7 984H437",
+					"M311 447.2C361.2 393.5 432.6 360 511.8 360 591.1 360 662.6 393.6 712.8 447.3",
+					"M946.7 589.2C946.7 677.6 875.1 749.2 786.7 749.2 698.4 749.2 626.7 677.6 626.7 589.2 626.7 500.9 698.4 429.2 786.7 429.2 875.1 429.2 946.7 500.9 946.7 589.2Z",
+					"M586.7 984V949.2C586.7 838.8 676.3 749.2 786.7 749.2 897.2 749.2 986.7 838.8 986.7 949.2V984H586.7Z",
+					"M398.1 590.3C398.1 679.2 326 751.3 237 751.3 148.1 751.3 76 679.2 76 590.3 76 501.3 148.1 429.2 237 429.2 326 429.2 398.1 501.3 398.1 590.3Z",
+					"M37 984V949.2C37 838.8 126.5 749.2 237 749.2 347.5 749.2 437 838.8 437 949.2V984H37Z"
+				],
+				"attrs": [
+					{
+						"fill": "none"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 48,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": {
+				"name": "users-easy"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 23.3H993V1016.2H0V23.3Z",
+					"M963.9 401.5C963.9 594.3 807.6 750.5 614.8 750.5 422 750.5 265.7 594.3 265.7 401.5 265.7 208.7 422 52.4 614.8 52.4 807.6 52.4 963.9 208.7 963.9 401.5Z",
+					"M367.9 648.3L279.8 736.4",
+					"M498.4 517.8V343.3",
+					"M614.8 517.8V285.1",
+					"M111.4 987.2L29.1 904.9 238.7 695.3 321 777.6 111.4 987.2Z",
+					"M731.2 517.8V226.9",
+					"M440.2 517.8H789.3"
+				],
+				"attrs": [
+					{
+						"fill": "none"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 993
+			},
+			"properties": {
+				"name": "search-easy"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M592.3 112.1C637 122.6 679 140.3 716.9 163.8 732.8 151.5 748.7 139.2 764.6 126.9 785.4 147.6 806.2 168.4 826.9 189.2 847.7 210 868.6 230.8 889.4 251.6 877 267.5 864.7 283.4 852.4 299.3 876 337.2 893.6 379.2 904.1 423.9 924 426.5 944 429 963.9 431.5 963.9 460.9 963.9 490.3 963.9 519.7 963.9 549.1 963.9 578.6 963.9 608 944 610.5 924 613 904.1 615.6 893.6 660.3 876 702.3 852.4 740.2 864.7 756.1 877.1 772 889.4 787.9 868.6 808.6 847.8 829.4 827 850.2 806.2 871 785.4 891.8 764.6 912.6 748.7 900.3 732.8 888 716.9 875.7 679 899.2 637 916.9 592.3 927.4 589.8 947.3 587.2 967.2 584.7 987.2 555.3 987.2 525.8 987.2 496.4 987.2 467.1 987.2 437.6 987.2 408.2 987.2 405.7 967.2 403.2 947.3 400.7 927.4 355.9 916.9 314 899.2 276 875.7 260.2 888 244.3 900.3 228.4 912.6 207.6 891.8 186.8 871 166 850.2 145.2 829.4 124.4 808.6 103.6 787.9 115.9 772 128.2 756.1 140.5 740.2 117 702.3 99.3 660.3 88.9 615.6 68.9 613 49 610.5 29.1 608 29.1 578.6 29.1 549.1 29.1 519.7 29.1 490.3 29.1 460.9 29.1 431.5 49 429 68.9 426.5 88.9 423.9 99.3 379.2 117 337.3 140.5 299.3 128.2 283.4 115.9 267.5 103.6 251.6 124.4 230.8 145.2 210 166 189.2 186.8 168.4 207.6 147.6 228.4 126.9 244.3 139.2 260.2 151.5 276.1 163.8 314 140.3 355.9 122.6 400.7 112.1 403.2 92.2 405.7 72.3 408.2 52.4 437.6 52.4 467.1 52.4 496.4 52.4 525.8 52.4 555.3 52.4 584.7 52.4 587.2 72.3 589.8 92.2 592.3 112.1Z",
+					"M580.7 413.4C577.6 450.6 577.4 487.9 581.6 524.9 586.4 568 597.2 610.8 611.4 653.6",
+					"M381.1 655C395.5 611.7 406.5 568.4 411.4 524.9 415.6 487.9 415.3 450.6 412.3 413.4",
+					"M382.1 294.8H611.1V364.6L589.2 411.2H405.9L382.1 364.6V294.8Z",
+					"M496.5 261.8V283.2",
+					"M382.1 261.8V320.5",
+					"M610.9 261.8V320.5",
+					"M371.6 661.5H621.4C645.3 661.5 664.8 681 664.8 704.9V777.7H328.2V704.9C328.2 681 347.8 661.5 371.6 661.5Z",
+					"M0 0L0 993 993 993 993 0 0 0"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"fillRule": "evenodd",
+						"clipRule": "evenodd",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"fillRule": "evenodd",
+						"clipRule": "evenodd",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"fillRule": "evenodd",
+						"clipRule": "evenodd",
+						"stroke": "#F97968",
+						"strokeWidth": 46.54545454545455,
+						"strokeMiterlimit": "22.9256",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"transform": "translate(0 0.75)"
+					}
+				],
+				"width": 993
+			},
+			"properties": {
+				"name": "bulb-easy"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M215.2 487.6L646.9 55.9C656.9 45.9 670.3 40.4 684.5 40.4 698.7 40.4 712 45.9 722 55.9L753.8 87.7C774.5 108.4 774.5 142.1 753.8 162.8L391.3 525.3 754.2 888.2C764.2 898.2 769.7 911.5 769.7 925.7 769.7 939.9 764.2 953.3 754.2 963.2L722.4 995C712.4 1005 699.1 1010.5 684.9 1010.5 670.7 1010.5 657.3 1005 647.3 995L215.2 562.9C205.2 552.9 199.7 539.5 199.8 525.3 199.7 511 205.2 497.6 215.2 487.6Z",
+					"M0 0L0 970.1 970.1 970.1 970.1 0 0 0"
+				],
+				"attrs": [
+					{
+						"fill": "inherit"
+					},
+					{
+						"fill": "none",
+						"transform": "matrix(-1 0 0 1 18 0.75)"
+					}
+				],
+				"width": 970
+			},
+			"properties": {
+				"name": "arrow-left"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M812.4 124.3L844.7 97",
+					"M853.2 217.7L895.1 212.6",
+					"M178.4 124.3L146.1 97",
+					"M138 217.7L96 212.6",
+					"M491.7 579.8C590.2 579.8 669.9 500 669.9 401.6 669.9 303.2 590.2 223.4 491.7 223.4 393.3 223.4 313.5 303.2 313.5 401.6 313.5 500 393.3 579.8 491.7 579.8Z",
+					"M329.8 751.5H653.5C656.4 702.3 677.2 655.7 712.1 620.6 767.9 564.4 802.4 487 802.4 401.6 802.4 231.2 665.3 92.9 495.4 90.9 324.5 88.8 183.1 226.7 180.9 397.5 179.8 484.4 214.3 563.2 270.8 620.2 305.8 655.5 326.9 702.1 329.8 751.5Z",
+					"M669 850.6H314.3C304.6 850.6 296.8 842.7 296.8 833V769C296.8 759.3 304.6 751.5 314.3 751.5H669C678.7 751.5 686.5 759.3 686.5 769V833C686.5 842.7 678.7 850.6 669 850.6Z",
+					"M573.3 949.7H409.8C361.7 949.7 322.6 910.6 322.6 862.4V850.6H660.5V862.4C660.5 910.6 621.5 949.7 573.3 949.7Z",
+					"M561.5 355.3L469 447.8 433.5 412.4"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "#020617",
+						"strokeWidth": 49.54838709677419,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 991
+			},
+			"properties": {
+				"name": "bulb"
+			}
+		},
+		{
+			"icon": {
+				"paths": ["M853.3 524.2H121.9", "M609.5 280.4L853.3 524.2 609.5 768"],
+				"attrs": [
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 40.54838709677419,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 40.54838709677419,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 975
+			},
+			"properties": {
+				"name": "arrow-right-medium"
+			}
+		},
+		{
+			"icon": {
+				"paths": ["M245.8 522.2H737.3", "M491.5 768V276.5"],
+				"attrs": [
+					{ "fill": "none", "strokeWidth": 61.44, "strokeLinecap": "round", "strokeLinejoin": "round" },
+					{ "fill": "none", "strokeWidth": 61.44, "strokeLinecap": "round", "strokeLinejoin": "round" }
+				],
+				"width": 983
+			},
+			"properties": { "name": "plus" }
+		},
+		{
+			"icon": {
+				"paths": ["M245.8 522.2H737.3"],
+				"attrs": [
+					{ "fill": "none", "strokeWidth": 61.44, "strokeLinecap": "round", "strokeLinejoin": "round" }
+				],
+				"width": 983
+			},
+			"properties": { "name": "minus" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M440.3 697.3C440.3 555.5 555.2 440.6 697 440.6 783.2 440.6 859.5 483.1 906 548.2V125.2C906 94.9 881.4 70.2 851 70.2H125C94.6 70.2 70 94.9 70 125.2V851.3C70 881.6 94.6 906.2 125 906.2H548C482.8 859.7 440.3 783.4 440.3 697.3Z",
+					"M488 488.3H70",
+					"M214.7 279.2H343",
+					"M279 343.4V215.1",
+					"M642 279.2H752",
+					"M233 651.4L324.7 743.1",
+					"M233 743.1L324.7 651.4",
+					"M488 548.2V70.3",
+					"M953.7 697.3C953.7 839 838.8 953.9 697 953.9 555.2 953.9 440.3 839 440.3 697.3 440.3 555.5 555.2 440.6 697 440.6 838.8 440.6 953.7 555.5 953.7 697.3Z",
+					"M632.7 743.1H761",
+					"M632.7 651.4H761"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": "22",
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "calculator" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M729.7 488.4C725.3 483.3 698 459.1 649.1 473.9 604.3 487.4 593.1 548.8 623.6 572.7 641.1 586.4 667.5 597.7 703 610.3 782.4 638.4 753.1 750.4 672.2 751 640.7 751.2 625.9 749.2 598.2 731.1",
+					"M672.2 431.9V791.9",
+					"M574 211.9H774C807.1 211.9 834 238.8 834 271.9 834 305.1 807.1 331.9 774 331.9H574C540.9 331.9 514 305.1 514 271.9 514 238.8 540.9 211.9 574 211.9Z",
+					"M470 885.7C484.1 889.7 498.9 891.9 514.3 891.9H833.7C928.7 891.9 1003.6 809.5 993 715.1 975.9 562.3 894.5 419.1 763.7 331.9H584.3C483.5 399.1 412.2 499.5 376.8 611.9",
+					"M494 51.9C548.5 88.3 619.5 88.3 674 51.9 728.5 88.3 799.5 88.3 854 51.9V52C854 114.4 822.7 172.7 770.7 207.2L763.7 211.9H584.3L577.3 207.2C525.3 172.7 494 114.4 494 52V51.9Z",
+					"M470 971.9H110V851.9H470V971.9Z",
+					"M390 851.9H30V731.9H390V851.9Z",
+					"M470 731.9H110V611.9H470V731.9Z"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"id": "path2",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"id": "path3",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"id": "path4",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"id": "path5",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"id": "path6",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"id": "path7",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"id": "path8",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"id": "path9",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "costing" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M768.3 768.3L870.4 870.3",
+					"M153.6 153.5L255.7 255.6",
+					"M254.5 769.4L153.6 870.3",
+					"M870.4 153.5L768.4 255.6",
+					"M167.9 150.6C192.5 116.5 184.7 68.9 150.6 44.3 116.5 19.7 69 27.4 44.4 61.5 19.8 95.6 27.5 143.2 61.6 167.8 95.7 192.4 143.3 184.7 167.9 150.6Z",
+					"M167.8 962.3C192.4 928.2 184.7 880.6 150.6 856 116.5 831.5 68.9 839.2 44.3 873.3 19.8 907.4 27.5 955 61.6 979.6 95.7 1004.1 143.3 996.4 167.8 962.3Z",
+					"M979.6 962.3C1004.2 928.2 996.4 880.6 962.3 856 928.2 831.5 880.7 839.2 856.1 873.3 831.5 907.4 839.2 955 873.3 979.6 907.4 1004.1 955 996.4 979.6 962.3Z",
+					"M979.6 150.6C1004.2 116.5 996.5 68.9 962.4 44.3 928.3 19.8 880.7 27.5 856.1 61.6 831.5 95.7 839.2 143.3 873.3 167.8 907.5 192.4 955 184.7 979.6 150.6Z",
+					"M512 874.5C595.5 874.5 663.1 712.2 663.1 512 663.1 311.8 595.5 149.5 512 149.5 428.5 149.5 360.8 311.8 360.8 512 360.8 712.2 428.5 874.5 512 874.5Z",
+					"M512 874.4C712.2 874.4 874.5 712.1 874.5 511.9 874.5 311.7 712.2 149.4 512 149.4 311.8 149.4 149.5 311.7 149.5 511.9 149.5 712.1 311.8 874.4 512 874.4Z",
+					"M179.8 511.9H844.2"
+				],
+				"attrs": [
+					{
+						"id": "path1",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path2",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path3",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path4",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path5",
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path6",
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path7",
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path8",
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path9",
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path10",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					},
+					{
+						"id": "path11",
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "globally" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M21.3 149.3C21.3 125.8 40.4 106.7 64 106.7H704C727.6 106.7 746.7 125.8 746.7 149.3V256H21.3V149.3Z",
+					"M930.7 228.5H930.5C891.2 228.5 859.3 260.4 859.3 299.8V355.5H1002V299.8C1002 260.4 970.1 228.5 930.7 228.5Z",
+					"M1002 812H859.3L904.7 966.6C912.3 992.5 949 992.5 956.6 966.6L1002 812Z",
+					"M1002.1 355.5H859.3V812H1002.1V355.5Z",
+					"M683.5 991.1H82C48.9 991.1 22 964.3 22 931.1V159.4C22 126.3 48.9 99.4 82 99.4H683.5C716.7 99.4 743.5 126.3 743.5 159.4V931.1C743.5 964.3 716.7 991.1 683.5 991.1Z",
+					"M131.8 33V158.5",
+					"M295.2 33V158.5",
+					"M458.7 33V158.5",
+					"M622.1 33V158.5",
+					"M22 256.5H743.5",
+					"M142.3 395.5H623.2",
+					"M376.6 514H623.2",
+					"M142.3 514H284.6",
+					"M142.3 632.6H623.2",
+					"M142.3 751.2H284.6",
+					"M882.3 890.4H976.4"
+				],
+				"attrs": [
+					{ "fill": "#F97968" },
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "notepad" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M277.3 497.4C277.3 442.7 233 398.4 178.3 398.4 123.7 398.4 79.3 442.7 79.3 497.4V845.8C79.3 900.4 123.7 944.8 178.3 944.8 233 944.8 277.3 900.4 277.3 845.8V497.4Z",
+					"M611 695.4C611 640.7 566.7 596.4 512 596.4 457.3 596.4 413 640.7 413 695.4V845.8C413 900.4 457.3 944.8 512 944.8 566.7 944.8 611 900.4 611 845.8V695.4Z",
+					"M944.7 524.9C944.7 470.2 900.3 425.9 845.7 425.9 791 425.9 746.7 470.2 746.7 524.9V845.8C746.7 900.4 791 944.8 845.7 944.8 900.3 944.8 944.7 900.4 944.7 845.8V689.9 524.9Z",
+					"M79.3 282.9L137.9 225C171.1 195.1 221 193.5 256.1 221.2L489.9 433.6C527.9 463.6 582.6 459 614.9 423.1L818.2 209.6",
+					"M944.7 251.7V152.8C944.7 112.3 911.8 79.4 871.3 79.4H772.3"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "line-chart" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M342.3 222.2C387.6 176.9 447.9 151.9 512 151.9 576.1 151.9 636.4 176.9 681.7 222.2",
+					"M455.4 335.3C486.7 304.1 537.3 304.1 568.6 335.3",
+					"M200 871.9V951.9",
+					"M824 871.9V951.9",
+					"M200 551.9L40 71.9",
+					"M824 551.9L984 71.9",
+					"M984 871.9H40V631.9C40 587.7 75.8 551.9 120 551.9H904C948.2 551.9 984 587.7 984 631.9V871.9Z",
+					"M200 711.9H344",
+					"M504 711.9m-40 0a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+					"M664 711.9m-40 0a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+					"M824 711.9m-40 0a40 40 0 1 0 80 0 40 40 0 1 0-80 0"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "inherit",
+						"strokeWidth": 34.13333333333333,
+						"strokeMiterlimit": "10",
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{ "fill": "white" },
+					{ "fill": "white" },
+					{ "fill": "white" }
+				],
+				"width": 1024
+			},
+			"properties": { "name": "wifi" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M511.8 85.3V128M511.8 896V938.7M881.3 298.7L844.4 320M179.3 704L142.3 725.3M142.3 298.7L179.3 320M844.4 704L881.3 725.3M767.8 512C767.8 653.4 653.2 768 511.8 768 370.5 768 255.8 653.4 255.8 512 255.8 370.6 370.5 256 511.8 256 653.2 256 767.8 370.6 767.8 512Z"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "sun" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M83 509.2C97.8 720.2 276.8 891.8 491 901.2 642.1 907.8 777.3 837.3 858.4 726.3 892 680.9 874 650.5 817.9 660.8 790.4 665.7 762.2 667.7 732.7 666.5 532.4 658.3 368.5 490.8 367.7 293 367.3 239.7 378.4 189.3 398.4 143.5 420.5 92.7 393.9 68.5 342.7 90.2 180.5 158.6 69.5 322 83 509.2Z"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 81.92,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 983
+			},
+			"properties": { "name": "moon" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M847.3 868.7C840.2 875.5 829 875.4 821.9 868.7L487.6 558 153.3 868.7C146.3 875.4 135 875.5 128 868.7 120.3 861.7 119.9 849.9 126.8 842.2L435.9 509.8 139.1 234C88 183.2 162.4 108.3 213.6 159.5L487.6 454.2 761.6 159.5C812.8 108.3 887.2 183.2 836.2 234L539.3 509.8 848.4 842.2C855.3 849.9 855 861.7 847.3 868.7Z",
+					"M245.4 312.5C242.2 312.5 239 311.3 236.5 308.9L149.8 223.8C142 217.2 137.1 206.7 137.1 195.6 137.1 190.7 138.1 185.9 139.9 181.4 142.5 174.9 149.9 171.8 156.3 174.4 162.8 177 165.9 184.4 163.3 190.8 162.7 192.3 162.4 193.9 162.4 195.6 162.4 199.3 164 202.8 166.8 205.3L254.2 290.9C259.2 295.8 259.3 303.8 254.4 308.7 251.9 311.3 248.7 312.5 245.4 312.5L245.4 312.5Z"
+				],
+				"attrs": [{ "fill": "#DD4752" }, { "fill": "#FF646C" }],
+				"width": 975
+			},
+			"properties": { "name": "cross" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M307.5 724.9C388.6 600.2 686.9 279.4 934.2 112.7 944.7 105.6 956.5 119.5 947.8 128.7 712.9 376.8 461.7 657.5 317.5 900.2 313.5 906.9 303.8 907.2 299.6 900.5 227 785.6 164.7 620.3 31.3 569.7 21.4 565.9 22.4 551.9 32.7 549.4 160.5 518.6 220.4 628 307.5 724.9V724.9Z"
+				],
+				"attrs": [{}],
+				"width": 975
+			},
+			"properties": { "name": "right" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M511.8 13.6C417.3 13.6 324.9 41.7 246.3 94.2 167.7 146.7 106.5 221.3 70.3 308.6 34.1 396 24.7 492 43.1 584.7 61.5 677.4 107.1 762.6 173.9 829.4 240.7 896.2 325.9 941.8 418.6 960.2 511.3 978.6 607.3 969.2 694.7 933 782 896.8 856.6 835.6 909.1 757 961.6 678.4 989.7 586 989.7 491.5 989.7 428.8 977.3 366.6 953.3 308.6 929.3 250.7 894.1 198 849.7 153.6 805.3 109.2 752.6 74 694.7 50 636.7 26 574.5 13.6 511.8 13.6ZM736.9 382.1L450.1 668.8C445.7 673.3 440.4 676.8 434.6 679.3 428.8 681.7 422.5 682.9 416.2 682.9 409.9 682.9 403.7 681.7 397.8 679.3 392 676.8 386.7 673.3 382.3 668.8L286.7 573.2C282.3 568.8 278.7 563.5 276.3 557.7 273.9 551.8 272.7 545.6 272.7 539.3 272.7 533 273.9 526.8 276.3 520.9 278.7 515.1 282.3 509.8 286.7 505.4 291.2 500.9 296.5 497.4 302.3 495 308.1 492.6 314.3 491.3 320.6 491.3 326.9 491.3 333.2 492.6 339 495 344.8 497.4 350.1 500.9 354.6 505.4L416.2 567.5 669 314.2C678 305.2 690.2 300.2 702.9 300.2 715.7 300.2 727.9 305.2 736.9 314.2 745.9 323.2 750.9 335.4 750.9 348.1 750.9 360.9 745.9 373.1 736.9 382.1Z"
+				],
+				"attrs": [{}],
+				"width": 1024
+			},
+			"properties": { "name": "rightbg" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M477.8 904.7C696.8 904.7 876 725.5 876 506.5 876 287.5 696.8 108.3 477.8 108.3 258.8 108.3 79.6 287.5 79.6 506.5 79.6 725.5 258.8 904.7 477.8 904.7Z",
+					"M308.7 506.5L421.4 619.2 647.2 393.8"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 74.32260266666667,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 74.32260266666667,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 956
+			},
+			"properties": { "name": "tick-circle" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M657 276.4C630.7 276.4 604.5 280 579.2 286.9 569.2 270.6 557 255.7 543 242.6L579.5 190.5C581.9 187.2 583.5 183.5 584.4 179.5 585.2 175.6 585.3 171.5 584.6 167.5 583.9 163.6 582.5 159.8 580.3 156.4 578.1 153 575.3 150 572 147.7 568.7 145.4 565 143.8 561 142.9 557.1 142 553 141.9 549 142.6 545.1 143.3 541.3 144.8 537.9 147 534.5 149.1 531.5 152 529.2 155.3L492.7 207.3C462.6 192.2 429.5 184.3 395.8 184.3 393.6 184.3 391.4 184.3 389.2 184.3L378.1 121.7C377.5 117.7 376.1 113.7 373.9 110.2 371.8 106.7 369 103.6 365.7 101.2 362.3 98.8 358.6 97.1 354.5 96.1 350.5 95.2 346.4 95.1 342.3 95.8 338.3 96.5 334.4 98.1 330.9 100.3 327.5 102.5 324.5 105.4 322.2 108.9 319.9 112.3 318.3 116.1 317.5 120.1 316.7 124.2 316.7 128.3 317.6 132.4L328.6 195.1C294.6 206.4 263.8 226 239.3 252.1L187 215.5C183.7 213.2 179.9 211.5 176 210.6 172 209.7 167.9 209.5 163.9 210.2 159.9 210.9 156.1 212.4 152.6 214.5 149.2 216.7 146.2 219.6 143.9 222.9 141.6 226.2 139.9 230 139 234 138.2 237.9 138.1 242 138.8 246 139.6 250 141.1 253.8 143.3 257.3 145.5 260.7 148.4 263.6 151.8 265.9L203.8 302.4C188.6 332.5 180.7 365.7 180.8 399.3 180.8 401.5 180.8 403.7 180.8 405.9L118.2 417C110.7 418.3 103.9 422.4 99.2 428.5 94.5 434.6 92.3 442.3 92.9 449.9 93.6 457.6 97.1 464.7 102.8 469.9 108.4 475.1 115.9 478 123.5 478 125.3 478 127.1 477.8 128.9 477.5L191.5 466.5C197.1 483.2 204.6 499.2 214 514.1 184.7 541.4 164.2 576.9 155.3 616 146.3 655.1 149.4 696 164 733.4 178.7 770.7 204.2 802.8 237.4 825.4 270.5 848 309.6 860.1 349.8 860.1H657C734.4 860.1 808.6 829.4 863.3 774.7 918 719.9 948.8 645.7 948.8 568.3 948.8 490.9 918 416.7 863.3 361.9 808.6 307.2 734.4 276.4 657 276.4ZM242.2 399.3C242.3 366.8 252.6 335.1 271.8 308.8 291 282.6 318 263.1 349 253.1 379.9 243.2 413.3 243.4 444.2 253.6 475 263.8 501.9 283.6 520.8 310.1 458.1 343.1 409.5 397.6 384 463.7 343.6 456.7 302.1 462.3 265 479.7 250.1 455.5 242.2 427.7 242.2 399.3ZM657 798.7H349.8C330.8 798.7 312.1 794.7 294.8 787.2 277.5 779.6 261.9 768.6 249 754.8 236.1 741 226.1 724.7 219.8 706.9 213.4 689 210.8 670.1 212.1 651.3 213.3 632.4 218.4 614 227.1 597.2 235.8 580.4 247.8 565.5 262.4 553.5 277 541.5 293.9 532.7 312.1 527.5 330.3 522.3 349.4 520.9 368.1 523.4 366.7 532.5 365.7 541.8 365.2 551.2 364.7 559.3 367.5 567.3 372.9 573.4 378.3 579.5 386 583.2 394.1 583.6 402.3 584.1 410.3 581.3 416.3 575.9 422.4 570.5 426.1 562.8 426.6 554.7 427.5 539.4 429.9 524.2 433.8 509.3 433.8 508.7 434.2 508.1 434.3 507.5 445.6 466 468.2 428.5 499.7 399.2 531.2 369.9 570.2 350 612.4 341.7 654.6 333.5 698.3 337.2 738.5 352.4 778.7 367.6 813.9 393.8 840 428 866.1 462.1 882.2 502.9 886.4 545.7 890.5 588.5 882.6 631.6 863.6 670.2 844.6 708.7 815.1 741.2 778.6 763.9 742.1 786.6 700 798.7 657 798.7Z"
+				],
+				"attrs": [{}],
+				"width": 1024
+			},
+			"properties": { "name": "cloudsun" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M687.8 276.5C671.9 276.5 656 277.7 640.4 280.3 634.8 222.6 611.2 168.2 573 124.7 534.7 81.1 483.8 50.7 427.3 37.7 422.3 36.6 417 36.7 412 38.2 407 39.6 402.4 42.3 398.8 45.9 395.1 49.6 392.4 54.2 390.9 59.2 389.5 64.2 389.4 69.5 390.5 74.5 397.8 106 397.8 138.8 390.6 170.3 383.5 201.9 369.3 231.4 349.2 256.7 329 282 303.4 302.4 274.3 316.5 245.2 330.6 213.3 337.9 180.9 337.9 164.7 337.9 148.4 336.1 132.6 332.5 127.5 331.3 122.2 331.4 117.2 332.9 112.2 334.3 107.7 337 104 340.7 100.3 344.4 97.6 348.9 96.2 353.9 94.7 358.9 94.6 364.2 95.8 369.3 104 404.9 119.2 438.5 140.5 468.2 161.8 497.9 188.7 523.1 219.8 542.3 197.9 572.1 184.8 607.3 181.7 644.1 178.7 680.8 185.9 717.7 202.6 750.6 219.2 783.6 244.7 811.2 276.1 830.6 307.5 849.9 343.7 860.1 380.6 860.2H687.8C765.2 860.2 839.4 829.4 894.2 774.7 948.9 719.9 979.7 645.7 979.7 568.3 979.7 490.9 948.9 416.7 894.2 362 839.4 307.2 765.2 276.5 687.8 276.5ZM170.8 399.4C174.2 399.4 177.6 399.4 180.9 399.4 254.2 399.3 324.5 370.1 376.3 318.3 428.2 266.5 457.3 196.2 457.4 122.9 457.4 119.5 457.4 116 457.4 112.6 492.8 129.2 522.9 155.1 544.6 187.6 566.3 220.1 578.6 257.9 580.3 296.9 542.8 311.8 508.7 334.3 480.3 363 451.9 391.7 429.7 425.9 415.2 463.6 389.2 459.1 362.6 459.8 336.9 465.6 311.2 471.5 286.9 482.3 265.4 497.6 224.1 475.9 190.9 441.5 170.8 399.4ZM687.8 798.7H380.6C361.7 798.7 343 794.8 325.7 787.2 308.3 779.7 292.7 768.6 279.8 754.8 266.9 741 257 724.7 250.6 706.9 244.3 689.1 241.7 670.1 242.9 651.3 244.2 632.4 249.3 614 258 597.2 266.6 580.4 278.6 565.5 293.3 553.5 307.9 541.6 324.8 532.7 343 527.5 361.2 522.3 380.2 520.9 399 523.4 397.5 532.5 396.5 541.8 396 551.2 395.8 555.2 396.3 559.3 397.7 563.1 399 566.9 401.1 570.4 403.8 573.4 406.4 576.4 409.7 578.9 413.3 580.7 417 582.4 420.9 583.4 425 583.7 429 583.9 433 583.3 436.9 582 440.7 580.7 444.2 578.6 447.2 575.9 450.2 573.2 452.7 570 454.4 566.3 456.2 562.7 457.2 558.8 457.5 554.7 458.3 539.4 460.7 524.2 464.7 509.4 464.7 508.8 465 508.1 465.1 507.5 476.4 466 499.1 428.5 530.6 399.2 562.1 369.9 601.1 350 643.3 341.8 685.5 333.5 729.2 337.2 769.4 352.4 809.6 367.6 844.7 393.8 870.9 428 897 462.1 913 502.9 917.2 545.7 921.4 588.5 913.5 631.6 894.5 670.2 875.4 708.8 846 741.2 809.5 763.9 773 786.6 730.8 798.7 687.8 798.7Z"
+				],
+				"attrs": [{}],
+				"width": 1024
+			},
+			"properties": { "name": "cloudmoon" }
+		}
+	]
+}
