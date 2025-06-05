@@ -6,20 +6,22 @@ export const Interested = (): JSX.Element => {
 	return (
 		<section className="w-full relative bg-primarySecondary rounded-tr-[50px] rounded-bl-[50px] dark:bg-transparent">
 			<div className="flex flex-col items-center justify-center gap-2.5 flex-[0_0_auto] relative z-[1]">
-				<div className="flex flex-col items-center gap-12 sm:pl-[111px] pl-6 sm:pr-[100px] pr-0 py-6 sm:py-[100px] self-stretch w-full flex-[0_0_auto] rounded-[0px_50px_0px_50px]">
-					{/* <div className="absolute w-[620px] h-[602px] top-[-50px] left-[820px] bg-[#f97968] rounded-[309.87px/301.11px] blur-[250px]" /> */}
+				<div className="flex flex-col items-center gap-12 sm:pl-[111px] pl-6 sm:pr-[100px] pr-0 py-6 sm:py-[100px] dark:sm:py-[72px] self-stretch w-full flex-[0_0_auto] rounded-[0px_50px_0px_50px]">
+					{/* <div className="absolute w-[620px] h-[602px] top-[-50px] left-[820px] bg-primary rounded-[309.87px/301.11px] blur-[250px]" /> */}
 
 					<div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-[90px] flex-[0_0_auto] sm:mr-[-151.00px]">
 						<div className="flex flex-col items-start sm:gap-12 pr-6 sm:pr-0 gap-4 relative flex-[0_0_auto]">
-							<div className="flex flex-col sm:w-[538px] w-full items-start gap-6 relative flex-[0_0_auto]">
-								<p className="font-semibold text-[28px] sm:text-5xl leading-[130%] text-center sm:text-left px-2 sm:px-0 bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)] bg-clip-text text-transparent">
-									Interested in an Enterprise roll-out? Why not explore the benefits further.
-								</p>
+							<div className="flex flex-col sm:w-[570px] w-full items-start gap-6 relative flex-[0_0_auto]">
+								<div className="sm:w-[534px]">
+									<p className="font-semibold text-[28px] sm:text-5xl leading-[130%] text-center sm:text-left px-2 sm:px-0 bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)] bg-clip-text text-transparent">
+										Interested in an Enterprise roll-out? Why not explore the benefits further.
+									</p>
+								</div>
 							</div>
 
 							<div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 relative flex-[0_0_auto] w-full">
-								<button className="flex h-[46px] sm:h-[60px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 bg-[#f97968] rounded-[54px] ring-2 ring-textSecondary/15 dark:ring-white/10 z-10">
-									<div className="font-semibold text-sm sm:text-base leading-6 whitespace-nowrap text-text dark:text-textDark ">
+								<button className="flex h-[46px] sm:h-[60px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 bg-primary rounded-[54px] ring-2 ring-textSecondary/15 dark:ring-white/10 z-10">
+									<div className="font-semibold text-sm sm:text-base leading-6 whitespace-nowrap text-text ">
 										Sign Up
 									</div>
 

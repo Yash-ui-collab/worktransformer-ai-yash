@@ -48,28 +48,32 @@ const benefitsData = [
 
 export default function Benefits() {
 	return (
-		<div className="container sm:pb-[72px] py-6">
+		<div className="container py-6 sm:pt-0 sm:pb-[72px]">
 			<div className="flex flex-col gap-6 sm:gap-12 ">
 				<div className="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
-					<h1 className="dark:text-white  font-semibold  text-4xl sm:text-5xl self-center">Benefits</h1>
-					<p className="dark:text-textSecondaryDark text-textSecondary sm:text-lg font-normal sm:w-[370px] text-[16px] text-center sm:text-start">
+					<h1 className="bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)] bg-clip-text text-transparent sm:tracking-normal tracking-[-2px] leading-[62px] font-semibold text-[28px] sm:text-5xl self-center">
+						Benefits
+					</h1>
+					<p className="dark:text-textSecondaryDark text-textSecondary sm:text-lg font-normal sm:w-[370px] text-[16px] text-center sm:text-start leading-[150%]">
 						Use cases and benefits are immense. Why not try the capability with a free sign-up?
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row gap-4 sm:gap-8 justify-center items-stretch relative z-10 ">
+				<div className="flex flex-wrap justify-center gap-4 sm:gap-[30px] items-stretch relative z-10">
 					{benefitsData.map(plan => (
 						<div
 							key={plan.title}
-							className="dark:bg-text/5 bg-primarySecondary rounded-2xl sm:p-[30px] p-4 sm:w-[270px] dark:text-white  shadow-blur/50 flex gap-4 sm:gap-8 flex-col border border-[#E4E4E7] dark:border-text/20 w-full">
-							<h2 className="text-[20px] font-semibold  dark:text-text text-textDark">{plan.title}</h2>
-							<ul className="flex flex-col sm:gap-6 gap-3 ">
+							className="dark:bg-text/5 bg-primarySecondary rounded-2xl sm:p-[30px] p-4 flex-1 min-w-[250px] max-w-[320px] dark:text-white shadow-blur/50 flex gap-4 sm:gap-8 flex-col outline outline-textSecondaryDark dark:outline-text/20">
+							<h2 className="text-base sm:text-[20px] font-semibold leading-[150%] dark:text-text text-textDark">
+								{plan.title}
+							</h2>
+							<ul className="flex flex-col sm:gap-4 gap-3">
 								{plan.features.map((feature, idx) => (
 									<li key={idx} className="flex items-start gap-[6px] sm:gap-[9px]">
 										<Icon
 											icon="tick-circle"
-											className="w-3 h-3 sm:h-5 sm:w-5 text-primary mt-1 sm:mt-0.5"
+											className="w-3 h-3 sm:h-[14px] sm:w-[14px] text-primary mt-1 sm:mt-0.5"
 										/>
-										<span className="sm:text-[14px] dark:text-text text-textDark font-normal w-full  sm:w-[187px] text-[12px]  ">
+										<span className="sm:text-[14px] leading-[150%] dark:text-text text-textDark font-normal w-full text-[12px]">
 											{feature}
 										</span>
 									</li>

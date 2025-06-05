@@ -51,7 +51,7 @@ export const Header = (): JSX.Element => {
 				/>
 
 				{/* Logo Section */}
-				<div className="flex items-center gap-2.5">
+				<Link to={"/"} className="flex items-center gap-2.5">
 					<img
 						className="w-[34px] h-[34px] sm:w-10 sm:h-10 object-cover"
 						alt="Logo"
@@ -60,7 +60,7 @@ export const Header = (): JSX.Element => {
 					<span className="text-textDark dark:text-white  text-base sm:text-lg font-normal font-inter">
 						worktransformers.ai
 					</span>
-				</div>
+				</Link>
 
 				<div className="block sm:hidden">
 					<Icon icon="menu" className="w-8 h-8 " />
@@ -115,14 +115,14 @@ export const Header = (): JSX.Element => {
 				{/* Action Buttons */}
 				<div className="hidden sm:inline-flex items-center gap-4  flex-[0_0_auto]">
 					<Link
-						to="/"
+						to="/login"
 						className="inline-flex h-[56px] items-center justify-center gap-4 px-9 py-4 flex-[0_0_auto] rounded-[54px] border border-solid border-textDark dark:border-text font-normal text-textDark dark:text-text text-sm  whitespace-nowrap">
 						Log In
 					</Link>
 
 					<Link
-						to="/"
-						className="inline-flex h-[56px] items-center justify-center gap-4 px-9 py-4 flex-[0_0_auto]  bg-[#f97968] rounded-[54px] border-2 border-solid border-transparent font-normal text-white text-sm  whitespace-nowrap">
+						to="/signup"
+						className="inline-flex h-[56px] items-center justify-center gap-4 px-9 py-4 flex-[0_0_auto]  bg-primary rounded-[54px] border-2 border-solid border-transparent font-normal text-white text-sm  whitespace-nowrap">
 						Sign Up
 					</Link>
 				</div>

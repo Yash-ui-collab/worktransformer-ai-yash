@@ -3,7 +3,11 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { initialState, StateProvider } from "components/utils/useAppState";
 import AccessDisabled from "pages/AccessDisabled";
 import App from "pages/App";
+import HomePage from "pages/HomePage";
+import PlatformPage from "pages/PlatformPage";
 import PricingPage from "pages/PricingPage";
+import LoginPage from "pages/Loginpage";
+import SignUpPage from "pages/SignUpPage";
 
 declare global {
 	interface Window {
@@ -30,8 +34,10 @@ const createRoutes: React.FC = () => {
 				<QueryClientProvider client={queryClient}>
 					<Routes>
 						<Route path="/" element={<App />}>
+							{/* Default route redirecting to /pricing */}
+							<Route index element={<Navigate to="/pricing" replace />} />
 							<Route
-								path="/"
+								path="/pricing"
 								element={
 									<ProtectedRoute>
 										<PricingPage />

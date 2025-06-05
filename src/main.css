@@ -183,3 +183,36 @@ button {
 /* .glow-image-orange::after {
 	background-image: url("/assets/images/glow-orange.svg");
 } */
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+	width: 8px;
+	background: transparent; /* matches dark bg */
+	border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #f97968; /* primary color */
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #d95a4a; /* a slightly darker shade for hover */
+}
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #f97968 #181c29;
+}
+
+/* Responsive: Thinner scrollbar on small screens */
+@media (max-width: 600px) {
+	::-webkit-scrollbar {
+		width: 4px;
+		border-radius: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+		border-radius: 4px;
+	}
+}

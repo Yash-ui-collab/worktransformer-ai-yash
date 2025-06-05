@@ -5,18 +5,18 @@ import { JSX, useState } from "react";
 export const HeroSection = (): JSX.Element => {
 	const [{ isDark, userDetails }, setAppState] = useAppState();
 	return (
-		<section className="container flex flex-col items-center gap-[38px] sm:gap-12 py-6 sm:pt-[50px] sm:pb-[80px] relative z-[1]">
+		<section className="container flex flex-col items-center gap-[38px] sm:gap-12 py-6 sm:pt-[50px] sm:pb-[38px] relative z-[1]">
 			<div className="flex flex-col items-center gap-5 sm:gap-[30px] ">
-				<div className="font-semibold bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)]  bg-clip-text text-transparent text-[52px] sm:text-[90px] w-auto sm:w-[582px] text-center tracking-[-2.00px] leading-[normal]">
+				<div className="font-semibold bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)]  bg-clip-text text-transparent text-[52px] sm:text-[90px] w-auto sm:w-[582px] text-center tracking-[-2.00px] leading-[110%] sm:leading-[109px]">
 					Simple. Fast. Affordable.
 				</div>
 
-				<p className=" w-[327px] sm:w-[620px] font-medium text-base sm:text-lg text-center  leading-[27px]">
+				<p className=" w-[327px] sm:w-[620px] font-medium text-base sm:text-lg text-center leading-[150%]">
 					Explore flexible plans tailored for individuals, teams, and enterprises. Start free — upgrade
 					anytime.
 				</p>
 			</div>
-			<div className="flex flex-col sm:flex-row items-center gap-4">
+			<div className="flex flex-col sm:flex-row items-center gap-3.5 sm:gap-4">
 				<button className=" inline-flex h-[46px] w-auto sm:w-[246px] sm:h-[56px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 bg-primary rounded-[54px] ring-2 dark:ring-white/10 ring-textSecondaryDark/35 text-text">
 					<div className="font-semibold text-sm sm:text-base leading-6 whitespace-nowrap">
 						Get Started for Free
@@ -27,7 +27,7 @@ export const HeroSection = (): JSX.Element => {
 					</div>
 				</button>
 
-				<button className=" inline-flex w-auto sm:w-[200px] h-[46px] sm:h-[56px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 dark:bg-[rgb(8,12,29,1)] rounded-[54px] ring dark:ring-text ring-textSecondaryDark/35 z-10">
+				<button className=" inline-flex w-auto sm:w-[200px] h-[46px] sm:h-[56px] items-center justify-center gap-4 pl-[24px] pr-1 sm:pl-6 sm:pr-1 py-4 dark:bg-[rgb(8,12,29,1)] rounded-[54px] ring dark:ring-text ring-textSecondaryDark/35 z-10">
 					<div className="font-semibold text-sm sm:text-base leading-6 whitespace-nowrap">Contact Sales</div>
 
 					<div className="flex w-[42px] h-[42px] sm:w-12 sm:h-12 items-center justify-center gap-3.5 rounded-[40px]  bg-primary">
