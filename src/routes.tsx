@@ -8,6 +8,8 @@ import PlatformPage from "pages/PlatformPage";
 import PricingPage from "pages/PricingPage";
 import LoginPage from "pages/Loginpage";
 import SignUpPage from "pages/SignUpPage";
+import SetUpAuthenticator from "pages/SetUpAuthenticator";
+import ForgotPasswordPage from "pages/ForgotPasswordPage";
 
 declare global {
 	interface Window {

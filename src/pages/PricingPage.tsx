@@ -18,47 +18,47 @@ const PricingPage = (): JSX.Element => {
 		{
 			id: 2,
 			question: "What happens when I run out of tokens?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 3,
 			question: "Can I upgrade or downgrade my plan anytime?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 4,
 			question: "Is my data safe and private?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 5,
 			question: "Do you offer annual pricing discounts?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 6,
 			question: "Does worktransformers.ai replace consultants?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 7,
 			question: "How long does onboarding take?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 8,
 			question: "What kind of support do we get after launch?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 9,
-			question: "Doesn't the RIBA Plan of Work already give us a framework?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			question: "Doesn’t the RIBA Plan of Work already give us a framework?",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 		{
 			id: 10,
 			question: "Why was worktransformers.ai model created?",
-			answer: "The traditional approach is flawed. It doesn't account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
+			answer: "The traditional approach is flawed. It doesn’t account for the unique needs of each organization, and it fails to recognize the importance of data-driven decision-making. The RIBA Plan of Work is a comprehensive framework that provides a structured approach to addressing these challenges.",
 		},
 	];
 

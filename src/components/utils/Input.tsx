@@ -3,46 +3,67 @@ import * as React from "react";
 import Icon from "./Icon";
 
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+	label?: string;
 	error?: string;
+	iconPost?: string;
 }
 
-const Input = React.forwardRef<HTMLInputElement, InputProps>(({ className, type = "text", error, ...props }, ref) => {
-	// const methods = useFormContext();
-	const inputType = type || "";
-	const [showPassword, setShowPassword] = React.useState(false);
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+	({ className, type = "text", label, error, iconPost, ...props }, ref) => {
+		// const methods = useFormContext();
+		const inputType = type || "";
+		const [showPassword, setShowPassword] = React.useState(false);
 
-	return (
-		<div className="relative ">
-			<input
-				type={inputType == "password" && showPassword ? "text" : inputType}
-				className={cn(
-					"bg-fgc dark:bg-fgcDark flex w-full rounded-xl text-sm sm:text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-textSecondary dark:placeholder:text-textDark/50  focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm border border-transparent py-[10px] sm:py-[17px] px-5 font-normal text-text dark:text-textDark",
-					className,
-					error ? "!border !border-red-500 focus-visible:!ring-red-500" : "focus-visible:ring-neutral-300",
+		return (
+			<div className="w-full flex flex-col">
+				{label ? (
+					<label className=" sm:text-base text-[14px]  text-[080C1D] leading-[150%] mb-2" htmlFor="email">
+						{label}
+					</label>
+				) : (
+					""
 				)}
-				ref={ref}
-				{...props}
-			/>
-			{inputType == "password" && (
-				<Icon
-					icon={showPassword ? "eye" : "eye-slash"}
-					onClick={() => setShowPassword(!showPassword)}
-					className="absolute sm:top-7 top-[22px] right-3 z-10 h-5 w-5 -translate-y-1/2 cursor-pointer  text-neutral-400"
-				/>
-			)}
-			{error && (
-				<span className="text-red-500 px-5 inline-block">
-					{error && (
-						<>
-							<span>{error}</span>
-						</>
+				<div className="relative ">
+					<input
+						type={inputType == "password" && showPassword ? "text" : inputType}
+						className={cn(
+							`w-full rounded-full border px-[24px] h-[48px] placeholder:text-textDark dark:placeholder:text-placeholder sm:px-8 sm:h-[56px] dark:bg-text/10 dark:border-text/12  bg-text border-borderSecondary focus-visible:ring-1 outline-0`,
+							className,
+							error
+								? "!border !border-red-500 focus-visible:!ring-red-500"
+								: "dark:focus-visible:ring-text/20 focus-visible:ring-textDark/20",
+						)}
+						ref={ref}
+						{...props}
+					/>
+					{inputType == "password" && (
+						<Icon
+							icon={showPassword ? "eye" : "eye-slash"}
+							onClick={() => setShowPassword(!showPassword)}
+							className="absolute sm:top-7 top-[24px] right-[30px] z-10 w-5 h-5 sm:w-[24px] sm:h-[24px] -translate-y-1/2 cursor-pointer"
+						/>
 					)}
-					&nbsp;
-				</span>
-			)}
-		</div>
-	);
-});
+					{iconPost && (
+						<Icon
+							icon={iconPost}
+							className="absolute sm:top-7 top-[24px] right-[30px] z-10 w-5 h-5 sm:w-[24px] sm:h-[24px] -translate-y-1/2 cursor-pointer"
+						/>
+					)}
+					{error && (
+						<span className="text-red-500 px-8 inline-block">
+							{error && (
+								<>
+									<span>{error}</span>
+								</>
+							)}
+							&nbsp;
+						</span>
+					)}
+				</div>
+			</div>
+		);
+	},
+);
 
 Input.displayName = "Input";
 

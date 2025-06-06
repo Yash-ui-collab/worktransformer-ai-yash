@@ -28,7 +28,8 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 										<div className="flex flex-col items-start sm:w-[573px] relative flex-1 grow">
 											<div
 												className={`flex flex-col items-center w-full flex-[0_0_auto] ${
-													openQuestionIndex === index ? "gap-[14px] sm:gap-[22px]"
+													openQuestionIndex === index
+														? "gap-[14px] sm:gap-6"
 														: "gap-0 sm:gap-0"
 												}`}>
 												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-[#ffffff14] bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-[#f97968] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
@@ -46,12 +47,12 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 																{openQuestionIndex === index ? (
 																	<Icon
 																		icon="minus"
-																		className="sm:h-6 sm:w-6 h-0 w-0 sm:block hidden cursor-pointer"
+																		className="sm:h-6 sm:w-6 h-0 w-0 sm:block hidden cursor-pointer self-start sm:mt-0 mt-1"
 																	/>
 																) : (
 																	<Icon
 																		icon="plus"
-																		className="sm:h-6 sm:w-6 h-4 w-4 cursor-pointer self-start sm:mt-0 mt-1"
+																		className="sm:h-6 sm:w-6 h-4 w-4 cursor-pointer self-start sm:mt-1 mt-1"
 																	/>
 																)}
 															</div>
@@ -81,7 +82,7 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 											<div
 												className={`flex flex-col items-center w-full flex-[0_0_auto] ${
 													openQuestionIndex === index + 5
-														? "gap-[14px] sm:gap-[22px]"
+														? "gap-[14px] sm:gap-6"
 														: "gap-0 sm:gap-0"
 												}`}>
 												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-[#ffffff14] bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-[#f97968] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
@@ -99,12 +100,12 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 																{openQuestionIndex === index + 5 ? (
 																	<Icon
 																		icon="minus"
-																		className="sm:h-6 sm:w-6 h-0 w-0 sm:block hidden cursor-pointer"
+																		className="sm:h-6 sm:w-6 h-0 w-0 sm:block hidden cursor-pointer self-start sm:mt-0 mt-1"
 																	/>
 																) : (
 																	<Icon
 																		icon="plus"
-																		className="sm:h-6 sm:w-6 h-4 w-4 cursor-pointer self-start sm:mt-0 mt-1 ml-1"
+																		className="sm:h-6 sm:w-6 h-4 w-4 cursor-pointer self-start sm:mt-1 mt-1 ml-1"
 																	/>
 																)}
 															</div>
@@ -127,7 +128,10 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 						</div>
 					</div>
 				</div>
-					<div className="font-normal sm:text-[18px] text-[14px] leading-[150%] tracking-[0] text-center font-inter text-textSecondary dark:text-text">Gain strategic insights in minutes—not weeks. Generate accurate cost estimates instantly. Benchmark your strategy with confidence. Automate reporting to boost team productivity</div>
+				<div className="font-normal sm:text-[18px] text-[14px] leading-[150%] tracking-[0] text-center font-inter text-textSecondary dark:text-text">
+					Gain strategic insights in minutes—not weeks. Generate accurate cost estimates instantly. Benchmark
+					your strategy with confidence. Automate reporting to boost team productivity
+				</div>
 			</div>
 		</section>
 	);

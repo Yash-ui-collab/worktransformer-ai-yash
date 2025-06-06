@@ -106,9 +106,14 @@
 	--color-success: #00a157;
 	--color-bgcSecondary: #28383c;
 	--color-border: #3b3e4c;
+	--color-borderDark: #919191;
 	--color-glow: #475569;
 	--color-hover: #161a29;
 	--color-primarySecondary: #f2e9e8;
+	--color-placeholder: #cccccc;
+	--color-borderSecondary: #e4e4e7;
+	--color-divider: #e4e4e7;
+	--color-dividerDark: #919191;
 }
 
 button {

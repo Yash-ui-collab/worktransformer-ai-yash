@@ -1,6 +1,36 @@
 import Icon from "components/utils/Icon";
 import React, { useState } from "react";
 
+const PRICING = {
+	FREE: {
+		monthly: 0,
+		yearly: 0,
+		topUpPrice: 70,
+		tokenAllowance: 100000,
+		queriesStandard: "5–7",
+	},
+	PLUS: {
+		monthly: 59,
+		yearly: 637,
+		topUpPrice: 55,
+		tokenAllowance: 750000,
+		queriesStandard: "40–50",
+		queriesFile: "10–12",
+	},
+	PRO: {
+		monthly: 229,
+		yearly: 2473,
+		topUpPrice: 40,
+		tokenAllowance: 3000000,
+		queriesStandard: "150–200",
+		queriesFile: "30–40",
+	},
+};
+
+const formatPrice = (price: number, type: "yearly" | "monthly") => {
+	return `£${price}/${type === "yearly" ? "year" : "month"}`;
+};
+
 export default function ChooseThePlan() {
 	const [planType, setPlanType] = useState<"yearly" | "monthly">("monthly");
 	return (
@@ -25,26 +55,30 @@ export default function ChooseThePlan() {
 								onClick={() => setPlanType("yearly")}
 								className={`inline-flex items-center justify-center gap-[7.26px] px-[17px] py-2 relative flex-[0_0_auto] rounded-[72.58px] transition-colors ${
 									planType === "yearly"
-										? "bg-text text-textDark shadow-[0px_2.9px_2.9px_#00000040] !py-[9px]"
+										? "bg-text text-textDark shadow-[0px_2.9px_2.9px_#00000040]"
 										: ""
 								}`}
 								style={{ border: "none", outline: "none" }}>
-								<div className="text-sm sm:text-base text-center font-semibold tracking-[0] leading-[21px] sm:leading-[24px] whitespace-nowrap">
-									Yearly
+								<div className="flex flex-col items-center">
+									<div className="text-sm sm:text-base text-center font-semibold tracking-[0] leading-[21px] sm:leading-[24px] whitespace-nowrap">
+										Yearly
+									</div>
 								</div>
 							</button>
 
 							<button
 								type="button"
 								onClick={() => setPlanType("monthly")}
-								className={`inline-flex items-center justify-center gap-[7.26px] px-3.5 sm:px-[17px] py-2 relative flex-[0_0_auto] rounded-[72.58px] transition-colors ${
+								className={`inline-flex items-center justify-center gap-[7.26px] px-3.5 sm:px-[17px] py-2 relative flex-[0_0_auto] rounded-[72.58px] transition-colors self-stretch ${
 									planType === "monthly"
 										? "bg-text text-textDark shadow-[0px_2.9px_2.9px_#00000040] !py-[9px]"
 										: ""
 								}`}
 								style={{ border: "none", outline: "none" }}>
-								<div className="text-sm sm:text-base text-center font-semibold tracking-[0] leading-[21px] sm:leading-[24px]  whitespace-nowrap">
-									Monthly
+								<div className="flex flex-col items-center">
+									<div className="text-sm sm:text-base text-center font-semibold tracking-[0] leading-[21px] sm:leading-[24px] whitespace-nowrap">
+										Monthly
+									</div>
 								</div>
 							</button>
 						</div>
@@ -65,7 +99,7 @@ export default function ChooseThePlan() {
 											</div>
 
 											<div className="font-semibold text-xl sm:text-2xl tracking-[0] leading-[150%] sm:leading-[150%]">
-												£0/month
+												{formatPrice(PRICING.FREE[planType], planType)}
 											</div>
 										</div>
 
@@ -185,7 +219,7 @@ export default function ChooseThePlan() {
 											</div>
 
 											<div className="font-semibold text-xl sm:text-2xl tracking-[0] leading-[150%] sm:leading-[150%] whitespace-nowrap">
-												£59/month
+												{formatPrice(PRICING.PLUS[planType], planType)}
 											</div>
 										</div>
 
@@ -302,6 +336,17 @@ export default function ChooseThePlan() {
 												className="w-3 h-3 sm:w-[14px] sm:h-[14px] text-primary shrink-0  mt-1"
 											/>
 
+											<p className="relative flex-1 font-normal text-xs sm:text-sm tracking-[0] leading-[150%] ">
+												Top-up Price: £55 per 200k tokens
+											</p>
+										</div>
+
+										<div className="flex items-start gap-1.5 sm:gap-[9px] relative self-stretch w-full flex-[0_0_auto]">
+											<Icon
+												icon="tick-circle"
+												className="w-3 h-3 sm:w-[14px] sm:h-[14px] text-primary shrink-0  mt-1"
+											/>
+
 											<div className="relative flex-1 font-normal text-xs sm:text-sm tracking-[0] leading-[150%] ">
 												Priority Support (Chat/Email)
 											</div>
@@ -325,7 +370,7 @@ export default function ChooseThePlan() {
 											</div>
 
 											<div className="font-semibold text-xl sm:text-2xl tracking-[0] leading-[150%] sm:leading-[150%] whitespace-nowrap">
-												£229/month
+												{formatPrice(PRICING.PRO[planType], planType)}
 											</div>
 										</div>
 
@@ -432,6 +477,17 @@ export default function ChooseThePlan() {
 
 											<p className="relative flex-1 font-normal text-xs sm:text-sm tracking-[0] leading-[150%] ">
 												Enhanced Security &amp; Data Privacy
+											</p>
+										</div>
+
+										<div className="flex items-start gap-1.5 sm:gap-[9px] relative self-stretch w-full flex-[0_0_auto]">
+											<Icon
+												icon="tick-circle"
+												className="w-3 h-3 sm:w-[14px] sm:h-[14px] text-primary shrink-0  mt-1"
+											/>
+
+											<p className="relative flex-1 font-normal text-xs sm:text-sm tracking-[0] leading-[150%] ">
+												Top-up Price: £40 per 200k tokens
 											</p>
 										</div>
 
