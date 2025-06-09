@@ -2,9 +2,11 @@ import { JSX, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { useAppState } from "components/utils/useAppState";
+import { useLocation } from "react-router-dom";
 
 export const ClientTestimonials = (): JSX.Element => {
 	const [{ isDark, userDetails }, setAppState] = useAppState();
+	const location = useLocation();
 	const [testimonials, setTestimonials] = useState([
 		{
 			name: "Jane Cooper",
@@ -35,8 +37,10 @@ export const ClientTestimonials = (): JSX.Element => {
 				<p className="font-semibold w-auto sm:w-[670px] text-[28px] tracking-[-2px] sm:tracking-normal leading-[140%] sm:leading-[62px] sm:text-5xl bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)] bg-clip-text text-transparent ">
 					Client Testimonials
 				</p>
-				<p className="w-auto sm:w-[370px] text-textSecondary dark:text-textSecondaryDark font-normal text-base sm:text-lg leading-[27px]">
-					This is what our clients say after signing up
+				<p className="w-auto sm:w-[370px] text-textSecondary dark:text-textSecondaryDark font-normal text-base sm:text-lg sm:leading-[27px]">
+					{location.pathname === "/pricing" && "This is what our clients say after signing up"}
+					{location.pathname === "/" &&
+						"Save time and cost, while accessing instant intelligence, making you effective and efficient."}
 				</p>
 			</div>
 
@@ -56,7 +60,7 @@ export const ClientTestimonials = (): JSX.Element => {
 					className="w-full">
 					{testimonials.map((item: any, index) => (
 						<SwiperSlide className="w-full px-1" key={index}>
-							<div className="bg-text dark:bg-bgc ring ring-white/20 dark:ring-textSecondary/50 rounded-[12px] sm:rounded-2xl shadow-[0px_4px_12px_0px_#00000014] p-5 sm:p-[30px] w-full !h-[350px] sm:!h-[393px] flex flex-col !justify-between sm:my-[0.5px] my-0.5">
+							<div className="bg-text dark:bg-bgc ring ring-white/20 dark:ring-textSecondary/50 rounded-[12px] sm:rounded-2xl shadow-[0px_4px_12px_0px_#00000014] p-5 sm:p-[30px] w-full !h-[350px] sm:!h-[393px] flex flex-col !justify-between sm:my-[0.5px] my-0">
 								<div className="flex flex-col gap-8 sm:gap-[42px]">
 									<div className="flex justify-between items-center">
 										<img

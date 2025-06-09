@@ -8,8 +8,8 @@ import PlatformPage from "pages/PlatformPage";
 import PricingPage from "pages/PricingPage";
 import LoginPage from "pages/Loginpage";
 import SignUpPage from "pages/SignUpPage";
-import SetUpAuthenticator from "pages/SetUpAuthenticator";
 import ForgotPasswordPage from "pages/ForgotPasswordPage";
+import ResourceHubPage from "pages/ResourceHubPage";
 
 declare global {
 	interface Window {
@@ -37,12 +37,40 @@ const createRoutes: React.FC = () => {
 					<Routes>
 						<Route path="/" element={<App />}>
 							{/* Default route redirecting to /pricing */}
-							<Route index element={<Navigate to="/pricing" replace />} />
+							{/* <Route index element={<Navigate to="/pricing" replace />} /> */}
+							<Route path="/login" element={<LoginPage />} />
+							<Route path="/signup" element={<SignUpPage />} />
+							<Route path="/forgot-password" element={<ForgotPasswordPage />} />
+
+							<Route
+								path="/"
+								element={
+									<ProtectedRoute>
+										<HomePage />
+									</ProtectedRoute>
+								}
+							/>
+							<Route
+								path="/platform"
+								element={
+									<ProtectedRoute>
+										<PlatformPage />
+									</ProtectedRoute>
+								}
+							/>
 							<Route
 								path="/pricing"
 								element={
 									<ProtectedRoute>
 										<PricingPage />
+									</ProtectedRoute>
+								}
+							/>
+							<Route
+								path="/resource-hub"
+								element={
+									<ProtectedRoute>
+										<ResourceHubPage />
 									</ProtectedRoute>
 								}
 							/>

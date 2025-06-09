@@ -12,7 +12,7 @@ export const Header = (): JSX.Element => {
 		{ title: "Pricing", href: "/pricing" },
 		{ title: "Enterprise", href: "/" },
 		{ title: "Trust Centre", href: "/" },
-		{ title: "Resource Hub", href: "/" },
+		{ title: "Resource Hub", href: "/resource-hub" },
 		{ title: "Company", href: "/" },
 	]);
 

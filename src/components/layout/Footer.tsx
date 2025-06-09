@@ -9,16 +9,6 @@ export default function Footer() {
 	const [isAuthPage, setIsAuthPage] = useState(false);
 	const location = useLocation();
 
-	// Navigation menu items
-	const navItems = [
-		{ title: "Home", href: "/", authRequired: false },
-		{ title: "Radar & Maps", href: "#", authRequired: true },
-		{ title: "Weather A.I.", href: "/weather-ai", authRequired: false },
-		{ title: "Go Premium", href: "/premium-plan", authRequired: true },
-		{ title: "Top Stories", href: "#", authRequired: false },
-		{ title: "Alerts", href: "/alerts", authRequired: false },
-	];
-
 	useEffect(() => {
 		setIsAuthPage(
 			prev =>
@@ -61,7 +51,10 @@ export default function Footer() {
 		<footer className={`container relative z-[1] flex flex-col w-full items-start `}>
 			{location.pathname !== "/login" &&
 				location.pathname !== "/signup" &&
-				location.pathname !== "/setup-authenticator" && (
+				location.pathname !== "/setup-authenticator" &&
+				location.pathname !== "/verify-authenticator" &&
+				location.pathname !== "/security" &&
+				location.pathname !== "/forgot-password" && (
 					<div className="flex flex-col items-center gap-5 sm:gap-10 py-6 sm:py-[72px]  self-stretch w-full flex-[0_0_auto]">
 						<Link to={"/"} className="inline-flex items-center gap-2.5  flex-[0_0_auto]">
 							<img className="object-cover  w-10 h-10" alt="Image" src="/assets/images/logo.png" />

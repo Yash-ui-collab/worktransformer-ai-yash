@@ -17,7 +17,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
 		return (
 			<div className="w-full flex flex-col">
 				{label ? (
-					<label className=" sm:text-base text-[14px]  text-[080C1D] leading-[150%] mb-2" htmlFor="email">
+					<label
+						className=" sm:text-base text-[14px] mb-[6px] text-[080C1D] leading-[150%] sm:mb-2"
+						htmlFor="email">
 						{label}
 					</label>
 				) : (
@@ -38,7 +40,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
 					/>
 					{inputType == "password" && (
 						<Icon
-							icon={showPassword ? "eye" : "eye-slash"}
+							icon={showPassword ? "eye-slash" : "eye"}
 							onClick={() => setShowPassword(!showPassword)}
 							className="absolute sm:top-7 top-[24px] right-[30px] z-10 w-5 h-5 sm:w-[24px] sm:h-[24px] -translate-y-1/2 cursor-pointer"
 						/>

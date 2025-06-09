@@ -1529,6 +1529,213 @@
 				"width": 1024
 			},
 			"properties": { "name": "EnterpriseData" }
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 512m-426.7 0a426.7 426.7 0 1 0 853.4 0 426.7 426.7 0 1 0-853.4 0",
+					"M512 682.7v-170.7",
+					"M512 341.3h0.4"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": {
+				"name": "info"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 512m-426.7 0a426.7 426.7 0 1 0 853.4 0 426.7 426.7 0 1 0-853.4 0",
+					"M512 682.7v-170.7",
+					"M512 341.3h0.4"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": {
+				"name": "info"
+			}
+		},
+
+		{
+			"icon": {
+				"paths": [
+					"M512 512m-426.7 0a426.7 426.7 0 1 0 853.4 0 426.7 426.7 0 1 0-853.4 0",
+					"M384 512l85.3 85.3 170.7-170.6"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": {
+				"name": "circle-check"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M927.1 768l-341.3-597.3a85.3 85.3 0 0 0-148.5 0l-341.3 597.3A85.3 85.3 0 0 0 170.7 896h682.6a85.3 85.3 0 0 0 73.8-128",
+					"M512 384v170.7",
+					"M512 725.3h0.4"
+				],
+				"attrs": [
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					},
+					{
+						"fill": "none",
+						"strokeWidth": 85.33333333333333,
+						"strokeLinecap": "round",
+						"strokeLinejoin": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": {
+				"name": "triangle-alert"
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 0H1024V1024H0V0Z",
+					"M888.5 809.4H136.1C107.9 809.4 85 786.6 85 758.4V139.3H939.6V758.4C939.6 786.6 916.8 809.4 888.5 809.4Z",
+					"M939.8 139.2H84.8C54.7 139.2 30.3 114.8 30.3 84.7V84.5C30.3 54.4 54.7 30 84.8 30H939.8C969.9 30 994.3 54.4 994.3 84.5V84.7C994.3 114.8 969.9 139.2 939.8 139.2Z",
+					"M512.3 809.4V993",
+					"M632.3 994L513.1 810.6C512.8 810 511.9 810 511.5 810.6L392.3 994",
+					"M338.3 326.9C338.3 363.1 309 392.4 272.8 392.4 236.7 392.4 207.3 363.1 207.3 326.9 207.3 290.8 236.7 261.5 272.8 261.5 309 261.5 338.3 290.8 338.3 326.9Z",
+					"M836.6 678.9L740.7 583.1",
+					"M836.6 583.1L740.7 678.9",
+					"M240.7 621.1L437.3 433.9C444.1 428.2 454 428.8 460.1 435.1L572.7 552.6C579.9 560.1 592.1 559.3 598.2 550.9L777.9 329.4",
+					"M712 333.2L773 327.9C777.1 327.6 780.6 330.6 780.9 334.7L784 390.9"
+				],
+				"attrs": [
+					{ "fill": "none" },
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					},
+					{
+						"fill": "#F97968",
+						"stroke": "#F97968",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					},
+					{
+						"fill": "none",
+						"stroke": "white",
+						"strokeMiterlimit": "10",
+						"strokeWidth": 38.4,
+						"strokeLinecap": "round"
+					}
+				],
+				"width": 1024
+			},
+			"properties": { "name": "planning" }
 		}
 	]
 }
