@@ -31,7 +31,7 @@ export const ReadyToRethink = (): JSX.Element => {
 										Request Your Demo
 									</div>
 
-									<div className="flex w-[42px] h-[42px] sm:w-12 sm:h-12 items-center justify-center gap-3.5 rounded-[40px]  bg-[#F97968]">
+									<div className="flex w-[42px] h-[42px] sm:w-12 sm:h-12 items-center justify-center gap-3.5 rounded-[40px]  bg-primary">
 										<Icon icon="send" className="w-[18px] h-[18px] sm:w-5 sm:h-5 text-text" />
 									</div>
 								</button>

@@ -40,7 +40,7 @@ export const WorkplaceLeaders = (): JSX.Element => {
 		<section className="container flex flex-col items-center gap-6 sm:gap-[72px] py-6 sm:pb-[72px] sm:pt-0">
 			<div className="flex flex-col items-center justify-center gap-6 sm:gap-[72px]  w-full overflow-hidden">
 				<div className="flex flex-col sm:flex-row sm:text-start text-center items-center gap-4 sm:gap-0 justify-between w-full">
-					<p className="font-bold w-auto sm:w-[670px] text-[28px] tracking-[-2px] leading-[39px] sm:leading-[58px] sm:text-5xl dark:bg-gradient-to-r from-white to-[#AAAAAA] bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] bg-clip-text text-transparent">
+					<p className="font-bold w-auto sm:w-[670px] text-[28px] tracking-[-2px] leading-[39px] sm:leading-[58px] sm:text-5xl dark:bg-gradient-to-r from-white to-grayGradient bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] bg-clip-text text-transparent">
 						Trusted by forward-thinking workplace leaders.
 					</p>
 					<p className="w-auto sm:w-[370px] text-textSecondary dark:text-textSecondaryDark font-normal text-base sm:text-lg sm:leading-[27px] leading-[24px]">
@@ -71,7 +71,7 @@ export const WorkplaceLeaders = (): JSX.Element => {
 					className="w-full">
 					{leaders.map((item: any, index) => (
 						<SwiperSlide className="w-full p-px" key={index}>
-							<div className="flex flex-col md:flex-row h-auto md:h-[452px] items-center gap-6 sm:gap-12 p-4 sm:p-8 sm:pr-[72px] relative w-full bg-[#F2E9E8] dark:bg-[#161a29] rounded-2xl sm:rounded-[30px]">
+							<div className="flex flex-col md:flex-row h-auto md:h-[452px] items-center gap-6 sm:gap-12 p-4 sm:p-8 sm:pr-[72px] relative w-full bg-primarySecondary dark:bg-hover rounded-2xl sm:rounded-[30px]">
 								<img
 									className="w-full sm:w-[370px] h-[310px] sm:h-[388px] object-cover rounded-2xl sm:rounded-3xl"
 									alt="Testimonial"
@@ -89,7 +89,7 @@ export const WorkplaceLeaders = (): JSX.Element => {
 
 									<div className="flex flex-col md:flex-row justify-between items-center sm:items-start md:items-end w-full gap-6 sm:gap-4">
 										<div className="flex flex-col w-full items-center sm:items-start md:w-[325px] gap-1 sm:gap-1.5">
-											<div className="text-xl sm:text-2xl font-bold text-transparent dark:bg-gradient-to-r from-white to-[#AAAAAA] bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] bg-clip-text leading-[26px] sm:leading-[31px]">
+											<div className="text-xl sm:text-2xl font-bold text-transparent dark:bg-gradient-to-r from-white to-grayGradient bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] bg-clip-text leading-[26px] sm:leading-[31px]">
 												{item.name}
 											</div>
 											<p

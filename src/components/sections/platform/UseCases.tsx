@@ -62,13 +62,13 @@ export const UseCases = (): JSX.Element => {
 				{useCases.map(item => (
 					<div
 						key={item.id}
-						className="flex flex-col items-center gap-3 sm:gap-4 p-4 sm:p-6 relative flex-1 grow bg-primarySecondary dark:bg-bgcTurnery/10 rounded-[10px] sm:rounded-3xl outline outline-solid outline-[#ffffff1f] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
-						<div className="flex flex-col items-center justify-center px-4 py-6 self-stretch w-full  rounded-[10px] sm:rounded-2xl outline outline-solid outline-[#ffffff1f] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)] h-[140px] sm:h-[249px] bg-white dark:bg-text/10">
+						className="flex flex-col items-center gap-3 sm:gap-4 p-4 sm:p-6 relative flex-1 grow bg-primarySecondary dark:bg-bgcTurnery/10 rounded-[10px] sm:rounded-3xl outline outline-solid outline-bgGray backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
+						<div className="flex flex-col items-center justify-center px-4 py-6 self-stretch w-full  rounded-[10px] sm:rounded-2xl outline outline-solid outline-bgGray backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)] h-[140px] sm:h-[249px] bg-white dark:bg-text/10">
 							<div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto] justify-center ">
 								<div className="relative sm:w-[100px] w-[56px] sm:h-[100px] h-[56px]">
 									<Icon icon="galary" className="h-full w-full dark:stroke-textdark" />
 								</div>
-								<div className="relative self-stretch font-normal text-textDark dark:text-[#cccccc] text-[12px] sm:text-sm text-center leading-[150%]">
+								<div className="relative self-stretch font-normal text-textDark dark:text-placeholder text-[12px] sm:text-sm text-center leading-[150%]">
 									{item.title}
 								</div>
 							</div>

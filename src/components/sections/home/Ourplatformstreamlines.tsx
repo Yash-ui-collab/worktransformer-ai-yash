@@ -56,9 +56,9 @@ export const Ourplatformstreamlines = (): JSX.Element => {
 				{useCases.map(item => (
 					<div
 						key={item.id}
-						className="flex flex-col items-center sm:gap-0 gap-[14px] p-[14px] sm:p-4 justify-between relative flex-1 grow bg-[#F2E9E8] dark:bg-white/5 rounded-[10px] sm:rounded-3xl outline outline-solid outline-[#ffffff1f] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)] sm:h-[484px]">
+						className="flex flex-col items-center sm:gap-0 gap-[14px] p-[14px] sm:p-4 justify-between relative flex-1 grow bg-primarySecondary dark:bg-white/5 rounded-[10px] sm:rounded-3xl outline outline-solid outline-bgGray backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)] sm:h-[484px]">
 						<div className="gap-[14px] sm:gap-4 flex flex-col">
-							<div className="flex flex-col items-center justify-center p-5 self-stretch w-full  rounded-[10px] sm:rounded-2xl outline outline-solid outline-[#ffffff1f] bg-text dark:bg-[#020617] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)] h-[203.46px] sm:h-[230px]">
+							<div className="flex flex-col items-center justify-center p-5 self-stretch w-full  rounded-[10px] sm:rounded-2xl outline outline-solid outline-bgGray bg-text dark:bg-bgc backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)] h-[203.46px] sm:h-[230px]">
 								<div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto] justify-center">
 									<div className="relative w-[26px] sm:w-[32px] h-[26px] sm:h-[32px]">
 										<Icon
@@ -66,7 +66,7 @@ export const Ourplatformstreamlines = (): JSX.Element => {
 											className="w-full h-full sm:w-[32px] sm:h-[32px] dark:stroke-textdark"
 										/>
 									</div>
-									<div className="relative self-stretch font-normal text-[#080C1D] dark:text-[#cccccc] sm:text-sm text-[12px] text-center leading-[18px]">
+									<div className="relative self-stretch font-normal text-textDark dark:text-placeholder sm:text-sm text-[12px] text-center leading-[18px]">
 										{item.title}
 									</div>
 								</div>

@@ -6,7 +6,7 @@ export const Additional = (): JSX.Element => {
 	return (
 		<section className="container relative">
 			<div className="justify-around gap-[67px] pt-0 pb-6 sm:pb-[72px] flex-[0_0_auto] flex items-center">
-				<div className="flex flex-col items-start gap-2.5 py-[14px] px-4 sm:p-6 relative flex-1 grow bg-primarySecondary dark:dark:bg-bgcTurnery rounded-2xl sm:rounded-3xl outline outline-solid outline-[#ffffff1f] ">
+				<div className="flex flex-col items-start gap-2.5 py-[14px] px-4 sm:p-6 relative flex-1 grow bg-primarySecondary dark:dark:bg-bgcTurnery rounded-2xl sm:rounded-3xl outline outline-solid outline-bgGray ">
 					<div className="flex items-center justify-center gap-6 flex-[0_0_auto]">
 						<div className="flex flex-col items-center justify-center gap-4 sm:gap-6 relative flex-1 grow">
 							<p className="font-medium text-center text-[20px] text-textDark dark:text-textSecondaryDark sm:text-[32px] leading-[150%] z-[1]">

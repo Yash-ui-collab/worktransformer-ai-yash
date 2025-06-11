@@ -117,8 +117,8 @@ const basicInfoSchema = yup.object().shape({
 		.min(8, "Phone number is too short")
 		.max(15, "Phone number is too long"),
 	company: yup.string().required("Company name is required"),
-	jobTitle: yup.string().required("Job title is required"),
-	orgSize: yup.string().required("Organization size is required"),
+	jobTitle: yup.string().required("Job Title is required"),
+	orgSize: yup.string().required("Organization Size is required"),
 	bestDescribes: yup.string().required("This field is required"),
 	intendedUse: yup.string().required("This field is required"),
 	achieveMost: yup.string().required("This field is required"),
@@ -210,12 +210,12 @@ export default function SignUpPage() {
 		switch (currentStep) {
 			case 1:
 				return (
-					<div className="flex flex-col items-center sm:gap-12 gap-6">
+					<div className="flex flex-col items-center sm:gap-12 gap-6 sm:w-full">
 						<div className="flex flex-col items-center sm:gap-4 gap-[14px]">
-							<h2 className="w-full sm:text-5xl text-[28px] leading-[110%] font-semibold text-center">
+							<h2 className="w-full sm:text-5xl text-[28px] sm:leading-[53px] leading-[31px] font-semibold text-center">
 								Sign Up
 							</h2>
-							<p className="  text-center text-[080C1D] leading-[150%] sm:text-base text-[14px]">
+							<p className="  text-center leading-[150%] sm:text-base text-[14px]">
 								Built for leaders and professionals shaping the future of work. Powered by extensive
 								research and AI.
 							</p>
@@ -223,7 +223,7 @@ export default function SignUpPage() {
 						<form
 							onSubmit={basicInfoForm.handleSubmit(handleBasicInfoSubmit)}
 							noValidate
-							className="flex flex-col sm:gap-12 gap-6">
+							className="flex flex-col sm:gap-12 gap-6 w-full">
 							<div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-6 gap-6 ">
 								{/* First Name */}
 								<div>
@@ -299,9 +299,8 @@ export default function SignUpPage() {
 									label="Job Title / Role"
 									placeholder="Please select"
 									options={departmentOptions}
-									defaultValue=""
-									{...basicInfoForm.register("jobTitle")}
 									error={basicInfoForm.formState.errors.jobTitle?.message as string}
+									{...basicInfoForm.register("jobTitle")}
 								/>
 
 								{/* Organization Size */}
@@ -309,9 +308,8 @@ export default function SignUpPage() {
 									label="Organization Size"
 									placeholder="Please select"
 									options={orgSizeOptions}
-									defaultValue=""
-									{...basicInfoForm.register("orgSize")}
 									error={basicInfoForm.formState.errors.orgSize?.message as string}
+									{...basicInfoForm.register("orgSize")}
 								/>
 
 								{/* Best Describes */}
@@ -319,9 +317,8 @@ export default function SignUpPage() {
 									label="Which role best describes you"
 									placeholder="Please select"
 									options={bestDescribesOptions}
-									defaultValue=""
-									{...basicInfoForm.register("bestDescribes")}
 									error={basicInfoForm.formState.errors.bestDescribes?.message as string}
+									{...basicInfoForm.register("bestDescribes")}
 								/>
 
 								{/* Intended Use */}
@@ -329,9 +326,8 @@ export default function SignUpPage() {
 									label="What is your intended use of the platform?"
 									placeholder="Please select"
 									options={intendedUseOptions}
-									defaultValue=""
-									{...basicInfoForm.register("intendedUse")}
 									error={basicInfoForm.formState.errors.intendedUse?.message as string}
+									{...basicInfoForm.register("intendedUse")}
 								/>
 
 								{/* Achieve Most */}
@@ -339,9 +335,8 @@ export default function SignUpPage() {
 									label="What do you hope to achieve most with our platform?"
 									placeholder="Please select"
 									options={achieveMostOptions}
-									defaultValue=""
-									{...basicInfoForm.register("achieveMost")}
 									error={basicInfoForm.formState.errors.achieveMost?.message as string}
+									{...basicInfoForm.register("achieveMost")}
 								/>
 
 								{/* Communications */}
@@ -349,9 +344,8 @@ export default function SignUpPage() {
 									label="Select communications you'd like to receive:"
 									placeholder="Please select"
 									options={communicationOptions}
-									defaultValue=""
-									{...basicInfoForm.register("communications")}
 									error={basicInfoForm.formState.errors.communications?.message as string}
+									{...basicInfoForm.register("communications")}
 								/>
 
 								{/* Role */}
@@ -359,9 +353,8 @@ export default function SignUpPage() {
 									label="Your role in choosing or approving workplace technology"
 									placeholder="Please select"
 									options={roleOptions}
-									defaultValue=""
-									{...basicInfoForm.register("role")}
 									error={basicInfoForm.formState.errors.role?.message as string}
+									{...basicInfoForm.register("role")}
 								/>
 
 								{/* Hear About */}
@@ -369,9 +362,8 @@ export default function SignUpPage() {
 									label="How did you hear about WorkTransformers.ai?"
 									placeholder="Please select"
 									options={hearAboutOptions}
-									defaultValue=""
-									{...basicInfoForm.register("hearAbout")}
 									error={basicInfoForm.formState.errors.hearAbout?.message as string}
+									{...basicInfoForm.register("hearAbout")}
 								/>
 							</div>
 
@@ -476,7 +468,7 @@ export default function SignUpPage() {
 					<form
 						onSubmit={verifyAuthForm.handleSubmit(handleVerifyAuthSubmit)}
 						className="flex flex-col items-center gap-6 sm:gap-12">
-						<div className="flex flex-col items-center sm:gap-4 gap-4">
+						<div className="flex flex-col items-center sm:gap-4 gap-[14px]">
 							<h2 className="w-full sm:text-5xl text-[28px] leading-[110%] font-semibold text-center text-textDark dark:text-text">
 								Verify Authenticator Code
 							</h2>
@@ -484,7 +476,7 @@ export default function SignUpPage() {
 								Please enter the code from your authenticator app
 							</p>
 						</div>
-						<div className="flex flex-col items-center w-full sm:gap-4 gap-3">
+						<div className="flex flex-col items-center w-full sm:gap-12 gap-6">
 							<div className="flex flex-col items-center sm:gap-6 gap-3">
 								<OtpInput
 									otpDigit={6}
@@ -512,7 +504,7 @@ export default function SignUpPage() {
 						<button
 							type="button"
 							onClick={handleBack}
-							className="sm:text-[16px] text-[14px] font-medium leading-[150%] flex items-center">
+							className="sm:text-[16px] text-[14px] font-medium leading-[150%] flex items-center sm:pt-0 sm:pb-0 pt-0.5 pb-[14px]">
 							Back
 						</button>
 					</form>
@@ -559,12 +551,6 @@ export default function SignUpPage() {
 								Sign Up
 							</button>
 						</div>
-						<button
-							type="button"
-							onClick={handleBack}
-							className="sm:text-[16px] text-[14px] font-medium leading-[150%] flex items-center">
-							Back
-						</button>
 					</form>
 				);
 			default:
@@ -602,7 +588,7 @@ export default function SignUpPage() {
 								: "py-6 sm:pt-[168px] sm:pb-[168px] sm:py-[123px]"
 				}`}>
 				<div
-					className={`bg-primarySecondary dark:bg-[#1A1E2D] rounded-2xl p-[16px] sm:p-12 flex flex-col gap-4 relative z-[1] ${
+					className={`bg-primarySecondary dark:bg-bgAuth rounded-2xl p-[16px] sm:p-12 flex flex-col gap-4 relative z-[1] ${
 						currentStep === 1
 							? "w-full"
 							: currentStep === 2

@@ -19,7 +19,7 @@ export const OnePlatform = (): JSX.Element => {
 					</div>
 
 					<div className="flex flex-col sm:flex-row sm:gap-0 gap-4 justify-between w-full flex-[0_0_auto] items-stretch">
-						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-[#161a29] bg-[#F2E9E8] rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-[#1E293B] outline-text">
+						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-hover bg-primarySecondary rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-cardBg outline-text">
 							<div className="flex flex-col items-start gap-2.5 p-3 w-full flex-[0_0_auto]">
 								<div className="flex flex-col items-center gap-3.5 sm:gap-3 w-full flex-[0_0_auto]">
 									<Icon icon="lightbulb" className="w-6 h-6" />
@@ -36,7 +36,7 @@ export const OnePlatform = (): JSX.Element => {
 								</div>
 							</div>
 
-							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-[#1E293B] border-text sm:w-auto">
+							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-cardBg border-text sm:w-auto">
 								<div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">
 									<div className="self-stretch font-semibold dark:text-white text-[16px] sm:text-lg text-center leading-[19.66px]">
 										Best for
@@ -49,7 +49,7 @@ export const OnePlatform = (): JSX.Element => {
 							</div>
 						</div>
 
-						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-[#161a29] bg-[#F2E9E8] rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-[#1E293B] outline-text">
+						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-hover bg-primarySecondary rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-cardBg outline-text">
 							<div className="flex flex-col items-start gap-2.5 p-3 w-full flex-[0_0_auto]">
 								<div className="flex flex-col items-center gap-3.5 sm:gap-3 w-full flex-[0_0_auto]">
 									{/* <Lightbulb className="!relative !w-6 !h-6" /> */}
@@ -68,7 +68,7 @@ export const OnePlatform = (): JSX.Element => {
 								</div>
 							</div>
 
-							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-[#1E293B] border-text sm:w-auto">
+							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-cardBg border-text sm:w-auto">
 								<div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">
 									<div className="self-stretch font-semibold dark:text-white text-[16px] sm:text-lg text-center leading-[19.66px]">
 										Best for
@@ -81,7 +81,7 @@ export const OnePlatform = (): JSX.Element => {
 							</div>
 						</div>
 
-						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-[#161a29] bg-[#F2E9E8] rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-[#1E293B] outline-text">
+						<div className="flex flex-col w-full sm:w-[270px] items-start justify-center gap-4 sm:gap-3 p-4 sm:p-3 dark:bg-hover bg-primarySecondary rounded-xl sm:rounded-2xl overflow-hidden outline dark:outline-cardBg outline-text">
 							<div className="flex flex-col items-start gap-2.5 p-3 w-full flex-[0_0_auto]">
 								<div className="flex flex-col items-center gap-3.5 sm:gap-3 w-full flex-[0_0_auto]">
 									<Icon icon="flame" className="w-6 h-6" />
@@ -98,7 +98,7 @@ export const OnePlatform = (): JSX.Element => {
 								</div>
 							</div>
 
-							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-[#1E293B] border-text sm:w-auto">
+							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-cardBg border-text sm:w-auto">
 								<div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">
 									<div className="self-stretch font-semibold dark:text-white text-[16px] sm:text-lg text-center leading-[19.66px]">
 										Best for
@@ -111,7 +111,7 @@ export const OnePlatform = (): JSX.Element => {
 							</div>
 						</div>
 
-						<div className="flex flex-col w-full sm:w-[270px] items-start  gap-4 sm:gap-0 p-4 sm:p-3 dark:bg-[#161a29] bg-[#F2E9E8] rounded-xl  sm:rounded-2xl overflow-hidden outline-1 dark:outline-[#1E293B] outline-text justify-between">
+						<div className="flex flex-col w-full sm:w-[270px] items-start  gap-4 sm:gap-0 p-4 sm:p-3 dark:bg-hover bg-primarySecondary rounded-xl  sm:rounded-2xl overflow-hidden outline-1 dark:outline-cardBg outline-text justify-between">
 							<div className="flex flex-col items-start gap-2.5 p-3 w-full flex-[0_0_auto]">
 								<div className="flex flex-col items-center gap-3.5 sm:gap-3 w-full flex-[0_0_auto]">
 									<Icon icon="scan-text" className="w-6 h-6" />
@@ -127,7 +127,7 @@ export const OnePlatform = (): JSX.Element => {
 								</div>
 							</div>
 
-							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-[#1E293B] border-text sm:w-auto">
+							<div className="flex flex-col sm:h-[150px] items-center gap-4 p-5 sm:p-6 relative self-stretch w-full flex-[0_0_auto] dark:bg-slate-950 bg-text sm:rounded-xl rounded-[14.53px] border border-solid dark:border-cardBg border-text sm:w-auto">
 								<div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">
 									<div className="self-stretch font-semibold dark:text-white text-[16px] sm:text-lg text-center leading-[19.66px]">
 										Best for

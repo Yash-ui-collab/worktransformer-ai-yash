@@ -5,7 +5,7 @@ export const ExperienceLightening = (): JSX.Element => {
 	return (
 		<section className="container">
 			<div className="relative z-[2] flex flex-col items-center gap-6 sm:gap-12 sm:pt-0 sm:pb-20 py-6 flex-[0_0_auto]">
-				<div className="absolute w-full h-[106px] sm:h-[338px] bottom-[10px] sm:bottom-[75px] bg-[#161a29] rounded-2xl sm:rounded-3xl overflow-hidden">
+				<div className="absolute w-full h-[106px] sm:h-[338px] bottom-[10px] sm:bottom-[75px] bg-hover rounded-2xl sm:rounded-3xl overflow-hidden">
 					<BgGlow className="bottom-[18px] sm:bottom-[50px] -left-[36px] sm:-left-28 !w-[72px] !h-[72px] sm:!w-[230px] sm:!h-[230px] !blur-[10px] sm:!blur-[30px]" />
 					<BgGlow
 						variant="secondary"
@@ -27,7 +27,7 @@ export const ExperienceLightening = (): JSX.Element => {
 				<div className="sm:relative sm:w-[970px] sm:h-[500px] w-[90%] h-[170px] z-10">
 					<div className="sm:relative sm:w-[976px] sm:h-[506px]  w-[295px] h-[170px] top-[-3px] left-[-3px] bg-[url(/assets/images/Experience-lightening.svg)] bg-cover bg-[50%_50%] rounded-lg sm:rounded-3xl">
 						<div className="flex w-full h-full items-center justify-center">
-							<div className="relative sm:w-[93px] sm:h-[93px]  w-[29.6px] h-[29.6px] -top-px -left-px bg-[#080c1d1a] rounded-[46.53px] shadow-[0px_35px_35px_#00000029] backdrop-blur-[5px] backdrop-brightness-[100%]">
+							<div className="relative sm:w-[93px] sm:h-[93px]  w-[29.6px] h-[29.6px] -top-px -left-px bg-darkOpacity rounded-[46.53px] shadow-[0px_35px_35px_#00000029] backdrop-blur-[5px] backdrop-brightness-[100%]">
 								<img
 									className="absolute sm:w-full sm:h-full top-0 left-0"
 									alt="Vector"

@@ -66,14 +66,14 @@ export const DesignedForEveryone = (): JSX.Element => {
 					{cards.map((item, index) => (
 						<div
 							key={index}
-							className={`py-4 sm:py-[30px] sm:h-[114px] group w-full flex ${hoveredIndex === index || selectedIndex === index ? "bg-[#F2E9E8] dark:bg-hover" : ""} cursor-pointer transition-all relative`}
+							className={`py-4 sm:py-[30px] sm:h-[114px] group w-full flex ${hoveredIndex === index || selectedIndex === index ? "bg-primarySecondary dark:bg-hover" : ""} cursor-pointer transition-all relative`}
 							onClick={() => setSelectedIndex(index)}
 							onMouseEnter={() => setHoveredIndex(index)}
 							onMouseLeave={() => setHoveredIndex(1)}>
 							<div className="container flex w-full items-center justify-between relative sm:gap-20 gap-6">
 								{/* Hover div */}
 								<div
-									className={`!hidden sm:flex-col w-[225px] min-h-10 max-h-[200px] items-center gap-4 p-5 absolute -top-[30px] z-[1] left-[305px] bg-text dark:bg-slate-950 rounded-xl border border-solid border-[#E4E4E7] dark:border-[#161a29] rotate-[10.91deg] shadow-[0px_30px_30px_#ffffff0f] ${hoveredIndex === index || selectedIndex === index ? "sm:!flex sm:!flex-col" : "!hidden"}`}>
+									className={`!hidden sm:flex-col w-[225px] min-h-10 max-h-[200px] items-center gap-4 p-5 absolute -top-[30px] z-[1] left-[305px] bg-text dark:bg-slate-950 rounded-xl border border-solid border-borderSecondary dark:border-hover rotate-[10.91deg] shadow-[0px_30px_30px_#ffffff0f] ${hoveredIndex === index || selectedIndex === index ? "sm:!flex sm:!flex-col" : "!hidden"}`}>
 									<div className="flex flex-col items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
 										<Icon icon="diamond-percent" className="w-6 h-6 self-center" />
 										<div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">

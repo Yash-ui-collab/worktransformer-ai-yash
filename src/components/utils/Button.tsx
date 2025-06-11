@@ -13,7 +13,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
 		const variantClasses = {
 			default: "border !border-primary bg-primary text-text hover:bg-primary/90",
-			outline: "border border-[#676767] bg-transparent dark:text-textDark",
+			outline: "border border-borderButton bg-transparent dark:text-textDark",
 			link: "text-primary",
 			none: "",
 		};

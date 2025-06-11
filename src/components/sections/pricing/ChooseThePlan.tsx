@@ -49,7 +49,7 @@ export default function ChooseThePlan() {
 				<div className="flex flex-col items-center gap-6 sm:gap-[50px] relative self-stretch w-full flex-[0_0_auto]">
 					{/* Tabs */}
 					<div className="inline-flex flex-col items-center gap-4 relative flex-[0_0_auto]">
-						<div className="inline-flex items-center p-[2.5px] sm:p-1 relative flex-[0_0_auto] bg-[#7299eb66] rounded-[100px]">
+						<div className="inline-flex items-center p-[2.5px] sm:p-1 relative flex-[0_0_auto] bg-ChooseBtn rounded-[100px]">
 							<button
 								type="button"
 								onClick={() => setPlanType("yearly")}

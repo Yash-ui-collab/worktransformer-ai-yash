@@ -66,7 +66,7 @@ const PlatformPage = (): JSX.Element => {
 		{
 			key: 4,
 			left: "left-0 sm:left-[700px]",
-			bg: "bg-bgc border-[#161a29]",
+			bg: "bg-bgc border-hover",
 			text: "",
 			title: "Notepad",
 			desc: "Streamline administrative tasks by converting your conversations, strategic ideas, and analytical insights into polished, professional-grade board reports, detailed emails, actionable plans, and clear milestone tracking—all in real-time.",
@@ -76,7 +76,7 @@ const PlatformPage = (): JSX.Element => {
 		{
 			key: 3,
 			left: "left-0 sm:left-[466px]",
-			bg: "bg-bgc border-[#161a29]",
+			bg: "bg-bgc border-hover",
 			text: "",
 			title: "Benchmark",
 			desc: "Conduct rapid strategic assessments to prioritise critical actions and benchmark your organisation's workplace performance against top-performing industry peers. Instantly gain clarity on your strategic position and areas for improvement.",
@@ -86,7 +86,7 @@ const PlatformPage = (): JSX.Element => {
 		{
 			key: 2,
 			left: "left-0 sm:left-[234px]",
-			bg: "bg-bgc border-[#161a29]",
+			bg: "bg-bgc border-hover",
 			text: "",
 			title: "Calculate",
 			desc: "Quickly determine accurate office space requirements and conduct detailed scenario analyses, including desk counts, hybrid working patterns, and preliminary cost estimates. Utilise current global data on fit-out costs and rental benchmarks to build robust business cases.",

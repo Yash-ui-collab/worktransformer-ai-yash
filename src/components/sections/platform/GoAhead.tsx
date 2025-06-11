@@ -19,12 +19,11 @@ export const GoAhead = (): JSX.Element => {
 				<div className="flex sm:flex-row flex-col items-center gap-6 sm:gap-[30px] self-stretch w-full flex-[0_0_auto]">
 					<div className="flex flex-col sm:w-[570px] sm:h-[417px] items-center sm:items-start justify-start">
 						<div className="flex sm:flex-row flex-col items-center self-stretch sm:w-full flex-[0_0_auto]">
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] border-b sm:border-b-0 flex-1 grow sm:border-r border-[#D5C7C3] dark:border-hover">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] border-b sm:border-b-0 flex-1 grow sm:border-r border-borderGray dark:border-hover">
 								<div className="w-8 h-8">
-									<img
-										className="sm:w-[27px] w-[23.33px] sm:h-[27px] h-[23.33px] top-[3px] left-[3px]"
-										alt="Layer"
-										src="https://c.animaapp.com/mafgsxlnPAP1p3/img/layer-43.png"
+									<Icon
+										icon="rightbg"
+										className="text-primary sm:w-[32px] w-[28px] sm:h-[32px] h-[28px] top-[3px] left-[3px]"
 									/>
 								</div>
 
@@ -33,12 +32,11 @@ export const GoAhead = (): JSX.Element => {
 								</p>
 							</div>
 
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9 border-b sm:border-none flex-1 grow self-stretch border-[#D5C7C3] dark:border-hover">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9 border-b sm:border-none flex-1 grow self-stretch border-borderGray dark:border-hover">
 								<div className="w-8 h-8">
-									<img
-										className="sm:w-[27px] w-[23.33px] sm:h-[27px] h-[23.33px] top-[3px] left-[3px]"
-										alt="Layer"
-										src="https://c.animaapp.com/mafgsxlnPAP1p3/img/layer-43.png"
+									<Icon
+										icon="rightbg"
+										className="text-primary sm:w-[32px] w-[28px] sm:h-[32px] h-[28px] top-[3px] left-[3px]"
 									/>
 								</div>
 
@@ -48,13 +46,12 @@ export const GoAhead = (): JSX.Element => {
 							</div>
 						</div>
 
-						<div className="flex sm:flex-row flex-col items-center self-stretch w-full flex-[0_0_auto] sm:border-t border-[#D5C7C3] dark:border-hover">
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9  flex-1 grow sm:border-r sm:border-b-0 border-b border-[#D5C7C3] dark:border-hover">
+						<div className="flex sm:flex-row flex-col items-center self-stretch w-full flex-[0_0_auto] sm:border-t border-borderGray dark:border-hover">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9  flex-1 grow sm:border-r sm:border-b-0 border-b border-borderGray dark:border-hover">
 								<div className="w-8 h-8">
-									<img
-										className="sm:w-[27px] w-[23.33px] sm:h-[27px] h-[23.33px] top-[3px] left-[3px]"
-										alt="Layer"
-										src="https://c.animaapp.com/mafgsxlnPAP1p3/img/layer-43.png"
+									<Icon
+										icon="rightbg"
+										className="text-primary sm:w-[32px] w-[28px] sm:h-[32px] h-[28px] top-[3px] left-[3px]"
 									/>
 								</div>
 
@@ -65,10 +62,9 @@ export const GoAhead = (): JSX.Element => {
 
 							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] pt-9 flex-1 grow self-stretch">
 								<div className="w-8 h-8">
-									<img
-										className="sm:w-[27px] w-[23.33px] sm:h-[27px] h-[23.33px] top-[3px] left-[3px]"
-										alt="Layer"
-										src="https://c.animaapp.com/mafgsxlnPAP1p3/img/layer-43.png"
+									<Icon
+										icon="rightbg"
+										className="text-primary sm:w-[32px] w-[28px] sm:h-[32px] h-[28px] top-[3px] left-[3px]"
 									/>
 								</div>
 

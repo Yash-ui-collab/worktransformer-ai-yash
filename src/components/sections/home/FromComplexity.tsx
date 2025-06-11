@@ -20,7 +20,7 @@ export const FromComplexity = (): JSX.Element => {
 				<div className="flex sm:flex-row flex-col items-center gap-6 sm:gap-[30px] self-stretch w-full flex-[0_0_auto]">
 					<div className="flex flex-col sm:w-[570px] sm:h-[444px] items-center sm:items-start justify-start">
 						<div className="flex sm:flex-row flex-col items-center self-stretch sm:w-full flex-[0_0_auto]">
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 pb-[36px] sm:p-[30px] border-b flex-1 grow sm:border-r border-[#E4E4E7] dark:border-[#161a29]">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 pb-[36px] sm:p-[30px] border-b flex-1 grow sm:border-r border-borderSecondary dark:border-hover">
 								<div className="sm:w-8 sm:h-8">
 									<Icon
 										icon="rightbg"
@@ -33,7 +33,7 @@ export const FromComplexity = (): JSX.Element => {
 								</p>
 							</div>
 
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9 border-b sm:border-none flex-1 grow self-stretch border-[#E4E4E7] dark:border-[#161a29]">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9 border-b sm:border-none flex-1 grow self-stretch border-borderSecondary dark:border-hover">
 								<div className="sm:w-8 sm:h-8">
 									<Icon
 										icon="rightbg"
@@ -47,8 +47,8 @@ export const FromComplexity = (): JSX.Element => {
 							</div>
 						</div>
 
-						<div className="flex sm:flex-row flex-col items-center self-stretch w-full flex-[0_0_auto] sm:border-t border-[#E4E4E7] dark:border-[#161a29]">
-							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9  flex-1 grow sm:border-r sm:border-b-0 border-b border-[#E4E4E7] dark:border-[#161a29]">
+						<div className="flex sm:flex-row flex-col items-center self-stretch w-full flex-[0_0_auto] sm:border-t border-borderSecondary dark:border-hover">
+							<div className="flex flex-col items-center sm:items-start gap-4 sm:gap-6 p-5 sm:p-[30px] py-9  flex-1 grow sm:border-r sm:border-b-0 border-b border-borderSecondary dark:border-hover">
 								<div className="sm:w-8 sm:h-8">
 									<Icon
 										icon="rightbg"
@@ -76,7 +76,7 @@ export const FromComplexity = (): JSX.Element => {
 						</div>
 					</div>
 
-					<div className="sm:w-[570px] sm:h-[444px] bg-[#161a29] rounded-2xl overflow-hidden z-10">
+					<div className="sm:w-[570px] sm:h-[444px] bg-hover rounded-2xl overflow-hidden z-10">
 						<img
 							className="sm:w-[565px] sm:h-[439px] sm:top-[5px] sm:left-[5px] h-[254px] w-[327px]"
 							alt="Image"

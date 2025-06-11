@@ -33,20 +33,20 @@ export const HoveredCard: React.FC<Props> = ({ cards, className, classPara }) =>
 			if (isFirst) {
 				if (hovered && hovered !== 1) {
 					bgClass = "dark:bg-bgc bg-text";
-					borderClass = "outline-white dark:outline-[#161a29]";
+					borderClass = "outline-white dark:outline-hover";
 					textClass = "text-textDark dark:text-white";
 				} else {
 					bgClass = "bg-textDark dark:bg-white";
-					borderClass = "outline-[#161a29] dark:outline-white";
+					borderClass = "outline-hover dark:outline-white";
 					textClass = "text-text dark:text-bgc";
 				}
 			} else if (isHovered) {
 				bgClass = "dark:bg-white bg-textDark";
-				borderClass = "dark:outline-white outline-[#161a29]";
+				borderClass = "dark:outline-white outline-hover";
 				textClass = "text-text dark:text-bgc";
 			} else {
 				bgClass = "dark:bg-bgc bg-text";
-				borderClass = "outline-text dark:outline-[#161a29]";
+				borderClass = "outline-text dark:outline-hover";
 				textClass = "text-textDark dark:text-white";
 			}
 
@@ -82,11 +82,11 @@ export const HoveredCard: React.FC<Props> = ({ cards, className, classPara }) =>
 							/>
 						</div>
 						<div
-							className={`whitespace-nowrap  bg-gradient-to-r from-bgc to-[#7E808C] dark:bg-gradient-to-r dark:from-white dark:to-[#AAAAAA] bg-clip-text text-transparent text-lg sm:text-3xl font-semibold group-hover:from-bgc group-hover:to-[#7E808C] ${showGlowAndImg && "dark:!from-bgc dark:!to-[#7E808C] !from-text !to-[#AAAAAA] "}`}>{`0${card.key}`}</div>
+							className={`whitespace-nowrap  bg-gradient-to-r from-bgc to-hoverGradient dark:bg-gradient-to-r dark:from-white dark:to-grayGradient bg-clip-text text-transparent text-lg sm:text-3xl font-semibold group-hover:from-bgc group-hover:to-hoverGradient ${showGlowAndImg && "dark:!from-bgc dark:!to-hoverGradient !from-text !to-grayGradient "}`}>{`0${card.key}`}</div>
 					</div>
 					<div className="flex-col items-start gap-2 sm:gap-3 self-stretch w-full flex-[0_0_auto] flex relative sm:h-auto">
 						<div
-							className={`font-semibold bg-gradient-to-r from-bgc to-[#7E808C] dark:bg-gradient-to-r dark:from-white dark:to-[#AAAAAA] bg-clip-text text-transparent text-lg sm:text-2xl group-hover:from-bgc group-hover:to-[#7E808C] leading-[26px] sm:leading-[31px] ${showGlowAndImg && "dark:!from-bgc dark:!to-[#7E808C] !from-text !to-[#AAAAAA] "}`}>
+							className={`font-semibold bg-gradient-to-r from-bgc to-hoverGradient dark:bg-gradient-to-r dark:from-white dark:to-grayGradient bg-clip-text text-transparent text-lg sm:text-2xl group-hover:from-bgc group-hover:to-hoverGradient leading-[26px] sm:leading-[31px] ${showGlowAndImg && "dark:!from-bgc dark:!to-hoverGradient !from-text !to-grayGradient "}`}>
 							{card.title}
 						</div>
 						<p

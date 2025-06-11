@@ -114,6 +114,16 @@
 	--color-borderSecondary: #e4e4e7;
 	--color-divider: #e4e4e7;
 	--color-dividerDark: #919191;
+	--color-hoverGradient: #7e808c;
+	--color-grayGradient: #aaaaaa;
+	--color-textGreen: #17ba2a;
+	--color-bgAuth: #1a1e2d;
+	--color-bgGray: #ffffff1f;
+	--color-darkOpacity: #080c1d1a;
+	--color-cardBg: #1e293b;
+	--color-borderGray: #d5c7c3;
+	--color-borderButton: #676767;
+	--color-ChooseBtn: #7299eb66;
 }
 
 button {

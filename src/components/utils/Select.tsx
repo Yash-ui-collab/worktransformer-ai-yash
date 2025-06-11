@@ -8,8 +8,7 @@ export interface SelectOption {
 	label: string;
 }
 
-export interface SelectProps
-	extends Omit<SelectHTMLAttributes<HTMLSelectElement>, "size"> {
+export interface SelectProps extends Omit<SelectHTMLAttributes<HTMLSelectElement>, "size"> {
 	label?: string;
 	error?: string;
 	options: SelectOption[];
@@ -19,18 +18,7 @@ export interface SelectProps
 }
 
 const Select = forwardRef<HTMLSelectElement, SelectProps>(
-	(
-		{
-			className,
-			label,
-			error,
-			options,
-			placeholder = "Please select",
-			register,
-			...props
-		},
-		ref
-	) => {
+	({ className, label, error, options, placeholder = "Please select", register, ...props }, ref) => {
 		return (
 			<div className="flex flex-col gap-[6px] sm:gap-[8px] relative">
 				{label && (
@@ -45,21 +33,20 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
 							error
 								? "!border !border-red-500 focus-visible:!ring-red-500"
 								: "dark:focus-visible:ring-text/20 focus-visible:ring-textDark/20",
-							className
+							className,
 						)}
 						{...(register ? register(props.name) : {})}
 						ref={ref}
-						{...props}
-					>
+						{...props}>
 						<option value="" disabled hidden>
 							{placeholder}
 						</option>
-						{options.map((option) => (
+						<option value="">{placeholder}</option>
+						{options.map(option => (
 							<option
 								key={option.value}
 								value={option.value}
-								className="text-textDark dark:text-text bg-text dark:bg-textDark"
-							>
+								className="text-textDark dark:text-text bg-text dark:bg-textDark">
 								{option.label}
 							</option>
 						))}
@@ -83,7 +70,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
 				</div>
 			</div>
 		);
-	}
+	},
 );
 
 Select.displayName = "Select";

@@ -149,7 +149,7 @@ function ForgotPasswordPage() {
 				className="bottom-[20px] sm:bottom-[151px] -right-[70px] sm:left-[-50px] !h-[150px] !w-[150px] sm:!h-[163px] sm:!w-[163px] sm:!scale-400 sm:block hidden"
 			/>
 			<div className="container flex items-center justify-center py-6 sm:pt-[172px] sm:pb-[196px] pb-[128.5px] pt-[128.5px] ">
-				<div className="bg-primarySecondary dark:bg-[#1A1E2D] rounded-2xl shadow-lg sm:p-12 p-4 sm:w-[666px] relative z-[2]">
+				<div className="bg-primarySecondary dark:bg-bgAuth rounded-2xl shadow-lg sm:p-12 p-4 sm:w-[666px] relative z-[2]">
 					<div className="flex flex-col sm:gap-4 gap-4">
 						<div className="flex flex-col items-center sm:gap-12 gap-6">
 							{step === 1 && (

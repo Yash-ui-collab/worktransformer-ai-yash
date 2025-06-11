@@ -34,7 +34,7 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 														? "gap-[16px] sm:gap-6"
 														: "gap-0 sm:gap-0"
 												}`}>
-												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-[#ffffff14] bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-[#f97968] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
+												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-text/8 bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-primary backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
 													<div className="flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]">
 														<div className="inline-flex items-center gap-3 relative flex-[0_0_auto] w-full">
 															<div
@@ -87,7 +87,7 @@ export const Frequently: React.FC<Props> = ({ questions }) => {
 														? "gap-[16px] sm:gap-6"
 														: "gap-0 sm:gap-0"
 												}`}>
-												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-[#ffffff14] bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-[#f97968] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
+												<div className="flex flex-col items-start gap-2.5 sm:px-6 px-4 sm:py-4 py-[14px] relative self-stretch w-full flex-[0_0_auto] dark:bg-text/8 bg-primarySecondary rounded-[0px_8px_8px_0px] border-l-2 [border-left-style:solid] border-primary backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
 													<div className="flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]">
 														<div className="inline-flex items-center gap-3 relative flex-[0_0_auto] w-full">
 															<div

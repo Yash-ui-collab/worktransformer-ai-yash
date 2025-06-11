@@ -29,7 +29,7 @@ export const HeroPlatformSection = (): JSX.Element => {
 			</button>
 
 			<div className="hidden sm:flex items-start gap-6 mt-[36px] relative ">
-				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-[#ffffff1f] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)] ">
+				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-bgGray backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)] ">
 					<img className="w-4 h-4" alt="Download" src="/assets/images/download.svg" />
 
 					<div className=" font-normal  text-sm tracking-[0] leading-[21px] whitespace-nowrap">
@@ -37,7 +37,7 @@ export const HeroPlatformSection = (): JSX.Element => {
 					</div>
 				</div>
 
-				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-[#ffffff1f] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
+				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-bgGray backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
 					<img className="w-4 h-4" alt="Download" src="/assets/images/download.svg" />
 
 					<div className=" font-normal text-sm tracking-[0] leading-[21px] whitespace-nowrap">
@@ -45,7 +45,7 @@ export const HeroPlatformSection = (): JSX.Element => {
 					</div>
 				</div>
 
-				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-[#ffffff1f] backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
+				<div className="flex items-center gap-2 px-6 py-3 flex-[0_0_auto] bg-primarySecondary dark:dark:bg-bgcTurnery rounded-[50px] outline outline-solid outline-bgGray backdrop-blur-[25px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(25px)_brightness(100%)]">
 					<img className="w-4 h-4" alt="Download" src="/assets/images/download.svg" />
 
 					<div className="text-sm leading-[21px] whitespace-nowrap font-normal  tracking-[0]">
@@ -62,7 +62,7 @@ export const HeroPlatformSection = (): JSX.Element => {
 					className="absolute bottom-full z-[1] -top-[164px] -right-[21px] w-[183px] h-[305px] hidden sm:block  "
 				/>
 
-				<div className="flex flex-col items-start gap-6 p-6 absolute -top-[234px] -left-[333px] bg-primarySecondary dark:bg-bgcTurnery rounded-2xl border border-solid border-[#ffffff1f] rotate-[-4.61deg] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)]">
+				<div className="flex flex-col items-start gap-6 p-6 absolute -top-[234px] -left-[333px] bg-primarySecondary dark:bg-bgcTurnery rounded-2xl border border-solid border-bgGray rotate-[-4.61deg] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)]">
 					<div className="inline-flex flex-col items-start justify-center gap-2 relative flex-[0_0_auto]">
 						<div className="flex flex-col w-[286px] items-start gap-8 relative flex-[0_0_auto]  self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-medium text-textDark dark:text-textSecondaryDark text-sm tracking-[0] leading-[21px]">
 							Slow Decisions &amp; Outdated Data
@@ -85,7 +85,7 @@ export const HeroPlatformSection = (): JSX.Element => {
 					</div>
 				</div>
 
-				<div className="inline-flex flex-col items-start gap-6 p-6 absolute -top-[240px] -right-[346px] bg-primarySecondary dark:bg-bgcTurnery rounded-2xl border border-solid border-[#ffffff1f] rotate-[5.26deg] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)]">
+				<div className="inline-flex flex-col items-start gap-6 p-6 absolute -top-[240px] -right-[346px] bg-primarySecondary dark:bg-bgcTurnery rounded-2xl border border-solid border-bgGray rotate-[5.26deg] backdrop-blur-[6px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(6px)_brightness(100%)]">
 					<div className="inline-flex flex-col items-start justify-center gap-2 relative flex-[0_0_auto]">
 						<div className="flex flex-col w-[286px] items-start gap-8 relative flex-[0_0_auto]  self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-medium text-textDark dark:text-textSecondaryDark text-sm tracking-[0] leading-[21px]">
 							Fragmented and Inconsistent Standards

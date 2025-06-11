@@ -71,12 +71,12 @@ export default function PlansDetail() {
 					Ideation Module (Worktransformers.AI)
 				</p>
 			),
-			free: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			plus: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			pro: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
+			free: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			plus: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			pro: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Fully customised
 					</p>
@@ -90,12 +90,12 @@ export default function PlansDetail() {
 					Calculate Module (Space Calculation)
 				</p>
 			),
-			free: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			plus: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			pro: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
+			free: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			plus: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			pro: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Advanced & API integrated
 					</p>
@@ -109,12 +109,12 @@ export default function PlansDetail() {
 					Notepad Module (Reports & Plans)
 				</p>
 			),
-			free: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			plus: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			pro: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
+			free: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			plus: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			pro: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Enhanced & custom reports
 					</p>
@@ -129,11 +129,11 @@ export default function PlansDetail() {
 				</p>
 			),
 			free: <Icon icon="cross" className="w-4 h-4 sm:h-5 sm:w-5" />,
-			plus: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			pro: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
+			plus: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			pro: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Dedicated account manager
 					</p>
@@ -150,7 +150,7 @@ export default function PlansDetail() {
 			pro: <Icon icon="cross" className="w-4 h-4 sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Exclusive access
 					</p>
@@ -169,7 +169,7 @@ export default function PlansDetail() {
 			pro: <Icon icon="cross" className="w-4 h-4 sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Exclusive access
 					</p>
@@ -183,12 +183,12 @@ export default function PlansDetail() {
 					Security & Data Privacy
 				</p>
 			),
-			free: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			plus: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
-			pro: <Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />,
+			free: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			plus: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
+			pro: <Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />,
 			Enterprise: (
 				<div className="flex gap-2 sm:gap-[10px]">
-					<Icon icon="right" className="text-[#17BA2A] h-4 w-4  sm:h-5 sm:w-5" />
+					<Icon icon="right" className="text-textGreen h-4 w-4  sm:h-5 sm:w-5" />
 					<p className="text-sm sm:text-base font-medium leading-[150%] whitespace-nowrap">
 						Enhanced and compliant
 					</p>

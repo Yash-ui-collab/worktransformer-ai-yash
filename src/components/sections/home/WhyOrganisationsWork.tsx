@@ -8,7 +8,7 @@ export const WhyOrganisationsWork = (): JSX.Element => {
 		{
 			key: 4,
 			left: "left-0 sm:left-[700px]",
-			bg: "bg-bgc outline-[#161a29]",
+			bg: "bg-bgc outline-hover",
 			text: "",
 			title: "Globally Validated",
 			desc: "Proven effective through partnerships with global organizations.",
@@ -18,7 +18,7 @@ export const WhyOrganisationsWork = (): JSX.Element => {
 		{
 			key: 3,
 			left: "left-0 sm:left-[466px]",
-			bg: "bg-bgc outline-[#161a29]",
+			bg: "bg-bgc outline-hover",
 			text: "",
 			title: "Simple & Accessible",
 			desc: "Clear, actionable insights without complex jargon or barriers.",
@@ -28,7 +28,7 @@ export const WhyOrganisationsWork = (): JSX.Element => {
 		{
 			key: 2,
 			left: "left-0 sm:left-[234px]",
-			bg: "bg-bgc outline-[#161a29]",
+			bg: "bg-bgc outline-hover",
 			text: "",
 			title: "Cost-Effective",
 			desc: "High-quality workplace strategy at a fraction of traditional consulting costs.",

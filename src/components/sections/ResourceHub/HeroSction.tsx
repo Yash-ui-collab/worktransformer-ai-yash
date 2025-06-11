@@ -6,7 +6,7 @@ import { JSX } from "react";
 export const HeroSection = (): JSX.Element => {
 	const [{ isDark, userDetails }, setAppState] = useAppState();
 	return (
-		<section className="container relative  flex flex-col items-center justify-center py-16 sm:py-24 z-[1]">
+		<section className="container relative  flex flex-col items-center justify-center py-6 sm:pt-[52px] sm:pb-24 z-[1]">
 			{/* Heading */}
 			<div className=" flex flex-col gap-[30px]">
 				<div className="relative sm:leading-[109px] leading-[110%] w-full sm:text-[90px] text-[52px] font-semibold tracking-[-2px]  bg-[linear-gradient(92.77deg,#080C1D_7.73%,#7E808C_99.72%)] dark:bg-[linear-gradient(92.99deg,#FFFFFF_14.12%,#AAAAAA_96.26%)] bg-clip-text text-transparent text-center  ">
@@ -39,18 +39,18 @@ export const HeroSection = (): JSX.Element => {
 					</div>
 				</button>
 				<img
-					src={`/assets/images/line-6${isDark ? "" : "-light"}.svg`}
-					className=" absolute  z-[1] -top-[280px] -left-[345px] w-[540px] h-[325px] hidden sm:block"
+					src={`/assets/images/line-6${isDark ? "" : "-light"}.png`}
+					className=" absolute  z-[1] -top-[277px] -left-[187px] w-[286px] h-[280px] hidden sm:block"
 				/>
 				<img
-					src={`/assets/images/line-6${isDark ? "" : "-light"}.svg`}
-					className="absolute scale-x-[-1] z-[1] -top-[280px] -right-[340px] w-[540px] h-[325px] hidden sm:block"
+					src={`/assets/images/line-6${isDark ? "" : "-light"}.png`}
+					className="absolute scale-x-[-1] z-[1] top-[-280px] right-[-186px] w-[286px] h-[280px] hidden sm:block"
 				/>
 			</div>
 			{/* Feature Cards */}
 			<div className="hidden sm:block  absolute w-full max-w-[1100px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
 				{/* Top Left */}
-				<div className="absolute left-3px top-0 flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
+				<div className="absolute left-[-30px] top-[-43px] flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
 					<div className="flex w-[42px] h-[42px] sm:w-[46px] sm:h-[46px] items-center justify-center  rounded-full shrink-0 dark:[background:linear-gradient(180deg,rgba(8,12,29,1)_0%,rgba(42,43,51,1)_100%)] [background:linear-gradient(180deg,#ffffff_0%,#eaeaea_100%)]">
 						<Icon icon="planning" className="text-textDark dark:text-text w-6 h-6" />
 					</div>
@@ -63,7 +63,7 @@ export const HeroSection = (): JSX.Element => {
 					<Icon icon="send" className="w-[16.35px] h-[16.35px] shrink-0" />
 				</div>
 				{/* Top Right */}
-				<div className="absolute right-[7px] top-0 flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
+				<div className="absolute right-[-30px] top-[-43px] flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
 					<div className="flex w-[42px] h-[42px] sm:w-[46px] sm:h-[46px] items-center justify-center  rounded-full shrink-0 dark:[background:linear-gradient(180deg,rgba(8,12,29,1)_0%,rgba(42,43,51,1)_100%)] [background:linear-gradient(180deg,#ffffff_0%,#eaeaea_100%)]">
 						<Icon icon="line-chart" className="text-textDark dark:text-text w-6 h-6" />
 					</div>
@@ -77,7 +77,7 @@ export const HeroSection = (): JSX.Element => {
 
 				{/* Bottom Left */}
 				<div
-					className="absolute -left-[63px] top-[-120px]
+					className="absolute -left-[111px] top-[-182px]
   bottom-0 flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
 					<div className="flex w-[42px] h-[42px] sm:w-[46px] sm:h-[46px] items-center justify-center  rounded-full shrink-0 dark:[background:linear-gradient(180deg,rgba(8,12,29,1)_0%,rgba(42,43,51,1)_100%)] [background:linear-gradient(180deg,#ffffff_0%,#eaeaea_100%)]">
 						<Icon icon="bulb" className="text-textDark dark:text-text w-6 h-6" />
@@ -90,7 +90,7 @@ export const HeroSection = (): JSX.Element => {
 					<Icon icon="send" className="w-[16.35px] h-[16.35px] shrink-0" />
 				</div>
 				{/* Bottom Right */}
-				<div className="absolute left-[908px] top-[-120px] right-0 bottom-0 flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
+				<div className="absolute left-[961px] top-[-186px] right-0 bottom-0 flex items-center gap-2 bg-primarySecondary dark:bg-bgcTurnery rounded-full pl-2 pr-[20px] py-2  pointer-events-auto w-[250px] h-[62px]">
 					<div className="flex w-[42px] h-[42px] sm:w-[46px] sm:h-[46px] items-center justify-center  rounded-full shrink-0 dark:[background:linear-gradient(180deg,rgba(8,12,29,1)_0%,rgba(42,43,51,1)_100%)] [background:linear-gradient(180deg,#ffffff_0%,#eaeaea_100%)]">
 						<Icon icon="calculator" className="text-textDark dark:text-text w-6 h-6" />
 					</div>

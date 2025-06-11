@@ -10,6 +10,7 @@ import LoginPage from "pages/Loginpage";
 import SignUpPage from "pages/SignUpPage";
 import ForgotPasswordPage from "pages/ForgotPasswordPage";
 import ResourceHubPage from "pages/ResourceHubPage";
+import TrustCenterPage from "pages/TrustCentrePage"
 
 declare global {
 	interface Window {
@@ -63,6 +64,14 @@ const createRoutes: React.FC = () => {
 								element={
 									<ProtectedRoute>
 										<PricingPage />
+									</ProtectedRoute>
+								}
+							/>
+							<Route
+								path="/trust-centre"
+								element={
+									<ProtectedRoute>
+										<TrustCenterPage />
 									</ProtectedRoute>
 								}
 							/>

@@ -11,7 +11,7 @@ export const Header = (): JSX.Element => {
 		{ title: "Models", href: "/" },
 		{ title: "Pricing", href: "/pricing" },
 		{ title: "Enterprise", href: "/" },
-		{ title: "Trust Centre", href: "/" },
+		{ title: "Trust Centre", href: "/trust-centre" },
 		{ title: "Resource Hub", href: "/resource-hub" },
 		{ title: "Company", href: "/" },
 	]);
@@ -88,9 +88,8 @@ export const Header = (): JSX.Element => {
 								localStorage.setItem("theme", "light");
 								setThemeMode(false);
 							}}
-							className={`flex items-center justify-center w-12 h-12 rounded-full transition-colors shrink-0 ${
-								!isDark ? "bg-text shadow-[0_2px_8px_#f9796822] cursor-default" : "cursor-pointer"
-							}`}>
+							className={`flex items-center justify-center w-12 h-12 rounded-full transition-colors shrink-0 ${!isDark ? "bg-text shadow-[0_2px_8px_#f9796822] cursor-default" : "cursor-pointer"
+								}`}>
 							<Icon
 								icon="cloudsun"
 								className={`w-6 h-6 ${!isDark ? "text-primary" : "text-textDark dark:text-text"}`}
@@ -101,9 +100,8 @@ export const Header = (): JSX.Element => {
 								localStorage.setItem("theme", "dark");
 								setThemeMode(true);
 							}}
-							className={`flex items-center justify-center w-12 h-12 rounded-full transition-colors shrink-0 ${
-								isDark ? "bg-text shadow-[0_2px_8px_#f9796822] cursor-default" : "cursor-pointer"
-							}`}>
+							className={`flex items-center justify-center w-12 h-12 rounded-full transition-colors shrink-0 ${isDark ? "bg-text shadow-[0_2px_8px_#f9796822] cursor-default" : "cursor-pointer"
+								}`}>
 							<Icon
 								icon="cloudmoon"
 								className={`w-6 h-6 ${isDark ? "text-primary" : "text-textDark dark:text-text"}`}

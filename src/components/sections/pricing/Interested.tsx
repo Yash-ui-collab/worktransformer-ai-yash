@@ -30,12 +30,12 @@ export const Interested = (): JSX.Element => {
 									</div>
 								</button>
 
-								<button className=" inline-flex h-[46px] sm:h-[60px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 dark:bg-[rgb(8,12,29,1)] bg-[#ffffff]  rounded-[54px] ring-2 ring-textSecondary/5 dark:ring-white/10 z-7  ">
+								<button className=" inline-flex h-[46px] sm:h-[60px] items-center justify-center gap-4 pl-[18px] pr-0.5 sm:pl-6 sm:pr-1 py-4 dark:bg-[rgb(8,12,29,1)] bg-text  rounded-[54px] ring-2 ring-textSecondary/5 dark:ring-white/10 z-7  ">
 									<div className="font-semibold text-sm sm:text-base leading-6 whitespace-nowrap  ">
 										Explore Enterprise
 									</div>
 
-									<div className="flex w-[42px] h-[42px] sm:w-12 sm:h-12 items-center justify-center gap-3.5 rounded-[40px]  bg-[#F97968]">
+									<div className="flex w-[42px] h-[42px] sm:w-12 sm:h-12 items-center justify-center gap-3.5 rounded-[40px]  bg-primary">
 										<Icon icon="send" className="w-[18px] h-[18px] sm:w-5 sm:h-5 text-text" />
 									</div>
 								</button>

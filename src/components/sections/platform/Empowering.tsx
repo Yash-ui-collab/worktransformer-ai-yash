@@ -123,7 +123,7 @@ export const Empowering = (): JSX.Element => {
 								<div className="flex flex-col items-center justify-center gap-6 relative w-full sm:w-[570px]">
 									<div
 										style={{ backgroundImage: `url(${card.img})` }}
-										className={` bg-cover bg-[50%_50%] relative self-stretch h-[266px] w-full sm:h-[464px] rounded-[12px] sm:rounded-2xl outline outline-solid outline-[#ffffff1f]`}
+										className={` bg-cover bg-[50%_50%] relative self-stretch h-[266px] w-full sm:h-[464px] rounded-[12px] sm:rounded-2xl outline outline-solid outline-bgGray`}
 									/>
 								</div>
 							</div>

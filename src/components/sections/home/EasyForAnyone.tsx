@@ -84,7 +84,7 @@ export const EasyForAnyone = (): JSX.Element => {
 						className="w-full">
 						{cards.map((card, index) => (
 							<SwiperSlide className="w-full p-px" key={index}>
-								<div className="flex-col items-start gap-4 sm:gap-[30px] p-5 sm:p-[30px] grow dark:bg-[#161a29] bg-text rounded-3xl shadow-[0px_20px_35px_#0000000d] flex  text-center sm:text-left">
+								<div className="flex-col items-start gap-4 sm:gap-[30px] p-5 sm:p-[30px] grow dark:bg-hover bg-text rounded-3xl shadow-[0px_20px_35px_#0000000d] flex  text-center sm:text-left">
 									<div className="w-full flex items-center justify-center sm:justify-start">
 										<div className=" flex w-[48px] h-[48px] sm:w-[70px] sm:h-[70px] items-center justify-center gap-3.5 rounded-[40px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(234,234,234,1)_100%)] dark:bg-[linear-gradient(180deg,rgba(8,12,29,1)_0%,rgba(42,43,51,1)_100%)]">
 											<Icon icon={card.icon} className="w-[22px] h-[22px] sm:w-8 sm:h-8" />
